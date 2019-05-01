@@ -11333,4 +11333,6 @@ Translate,Vertaal
 "Maximum length of this field must be equal or less than %1 symbols.","Maximale lengte van dit veld moet gelijk zijn of minder zijn dan %1 symbolen."
 "Admin is a required field in the each row.","Admin is een vereist veld in elke rij."
 "Forbidden extensions has been used. Avoid usage of ","Verboden extensies zijn gebruikt. Vermijd gebruik van "
+"Enter valid SKU key","Voer geldige SKU sleutel in"
+"Swatch and Admin are the required fields in the each row.","Swatch en Admin zijn de vereiste velden in elke rij."
 "The widget %1 is no longer available. Select a different widget.","De widget %1 is niet meer beschikbaar. Selecteer een andere widget."
