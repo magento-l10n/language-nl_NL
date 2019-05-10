@@ -2993,6 +2993,7 @@ Block,Blokkeer
 "Default Page Layout","Standaard pagina lay-out"
 """identifiers"" of CMS blocks should be specified","""identifiers"" van CMS-blokken moeten worden opgegeven"
 """Page id should be specified","De waarde ""page id"" moet worden opgegeven"
+Identifier,1
 "The block will be removed from the update and all scheduled changes will be lost.","Het blok zal worden verwijderd uit de update en alle geplande wijzigingen zullen verloren gaan."
 "Remove CMS page from Update","Verwijder CMS pagina van Update"
 "The page will be removed from the update and all scheduled changes will be lost.","De pagina zal worden verwijderd uit de update en alle geplande wijzigingen zullen verloren gaan."
