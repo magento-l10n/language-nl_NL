@@ -3850,6 +3850,7 @@ Unlock,Deblokkeer
 "Please make sure your passwords match.","Zorg dat de wachtwoorden overeenkomen."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Als u een geregistreerde BTW-klant bent, gelieve <a href=""%1""> hier te klikken </a> om uw verzendadres in te voeren voor een juiste BTW-berekening."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Als u een geregistreerde BTW-klant bent, gelieve <a href=""%1""> hier te klikken </a> om uw factuuradres in te voeren voor een juiste BTW-berekening."
+"Account Information",Accountgegevens
 "You saved the account information.","U heeft de accountgegevens opgeslagen."
 "Password confirmation doesn't match entered password.","Wachtwoord-bevestiging komt niet overeen met ingegeven wachtwoord."
 "The password doesn't match this account.","Het wachtwoord komt niet overeen met dit account."
@@ -4074,6 +4075,7 @@ Password:,Wachtwoord:
 "Track order history","Bekijk bestelgeschiedenis"
 "Check out faster","Reken sneller af"
 "Checkout using your account","Reken af met uw account"
+"Email Address",E-mailadres
 "Are you sure you want to delete this address?","Weet u zeker dat u het adres wilt verwijderen?"
 Weak,Zwak
 Medium,Gemiddeld

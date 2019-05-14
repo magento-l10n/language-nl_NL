@@ -1,6 +1,6 @@
 {
     "name": "community-engineering/language-nl_nl",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "type": "magento2-language",
     "description": "nl_NL language package.",
     "license": [
