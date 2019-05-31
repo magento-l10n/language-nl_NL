@@ -1438,6 +1438,7 @@ Percent,Percentage
 "Store View Title","Winkelaanzicht Titel"
 "Input Type",Invoertype
 "Radio Buttons","Radio buttons"
+Checkbox,Selectievakje
 "Multiple Select",Multi-select
 Required,Vereist
 "Default Quantity","Standaard aantal"
@@ -1476,6 +1477,7 @@ Message:,Bericht:
 "Qty Shipped","Verzonden aantal"
 "Add Products to New Option","Producten toevoegen aan nieuwe optie"
 "Add Products to Option ""%1""","Producten toevoegen aan optie ""%1"""
+Thumbnail,Mini-afbeelding
 "Special Price","Speciale prijs"
 "This is implemented for bundle products only.","Dit is alleen geïmplementeerd voor bundelproducten."
 "The product with the ""%1"" SKU isn't a bundle product.","Het product met het ""%1"" SKU is geen bundel product."
@@ -2375,7 +2377,9 @@ Scroll,scroll
 "If empty, we'll automatically set the width value in pixels.","Indien leeg, vullen we automatisch de breedte in, in pixels."
 "Catalog Events Carousel Default Template","Normale template van de carousel van catalogus-gebeurtenissen"
 "Category ID","Categorie ID"
+Start,Starten
 End,Einde
+"Countdown Ticker",Afteltimer
 "Edit Event...","Bewerk gebeurtenis"
 "Add Event...","voeg gebeurtenis toe"
 "Concrete type for %1 not implemented","Concreet type voor %1 is niet geïmplementeerd"
@@ -2390,6 +2394,7 @@ End,Einde
 "'category_id' only supports 'eq' condition type.","'category_id' ondersteunt alleen 'eq' conditietype."
 "Cannot resolve layered filter type","Kan gelaagde filtertype niet oplossen"
 "Cannot resolve type","Kan type niet oplossen"
+"Category doesn't exist","Categorie bestaat niet"
 """image_type"" value should be specified","De waarde ""image_type"" moet worden opgegeven"
 "currentPage value %1 specified is greater than the %2 page(s) available.","currentpage waarde %1 opgegeven is groter dan de %2 pagina(s) beschikbaar."
 "There are no product types available for export.","Er zijn geen product-typen beschikbaar om te exporteren."
@@ -2413,6 +2418,7 @@ End,Einde
 "Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Type entiteitsmodel moet voorkomen in \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
 "Entity type model must be an instance of '%1'","'Entiteit type model moet een exemplaar zijn van '%1'"
 "Disallowed file type.","Bestandstype is niet toegestaan."
+"Value for multiselect attribute %s contains duplicated values","Waarde voor multiselect attribuut %s bevat dubbele waarden"
 "Invalid Stock data for insert","Ongeldige voorraad gegevens voor invoegen"
 "Minimum Qty","Minimum aantal"
 "Add Minimum Qty","Voeg minimum aantal toe"
@@ -2811,6 +2817,7 @@ items,producten
 of,van
 "Something went wrong while saving the page. Please refresh the page and try again.","Er ging iets mis tijdens het opslaan van de pagina. Ververs de pagina en probeer het opnieuw."
 "You added %1 to your <a href=""%2"">shopping cart</a>.","U heeft %1 toegevoegd aan uw <a href=""%2"">winkelwagen</a>."
+"Please select at least one product to add to cart","Selecteer ten minste één product om toe te voegen aan winkelwagen"
 "The quote item isn't found. Verify the item and try again.","Het offerte item is niet gevonden. Controleer het item en probeer het opnieuw."
 "The product wasn't found. Verify the product and try again.","Het product is niet gevonden. Controleer het product en probeer het opnieuw."
 "The shipping address is missing. Set the address and try again.","Het verzendadres ontbreekt. Stel het adres in en probeer het opnieuw."
