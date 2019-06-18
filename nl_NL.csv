@@ -93,7 +93,7 @@ Back,Terug
 Cancel,Annuleer
 "Shopping Cart for %1 in %2","Winkelwagen voor %1 in %2"
 "Select products you want to buy","Selecteer het product dat u wilt kopen"
-Price,prijs
+Price,Prijs
 Quantity,Aantal
 "Products in the Comparison List (%1)","Producten in de Vergelijkingslijst (%1)"
 "Last ordered items (%1)","Laatst bestelde producten (%1)"
@@ -3900,8 +3900,8 @@ Unlock,Deblokkeer
 "Customer has been unlocked successfully.","Klant is ontgrendeld."
 "Online Customers","Online klanten"
 "Customers Now Online","Klanten nu online"
-"Please define Wish List item ID.","Geef verlanglijstje item-ID."
-"Please load Wish List item.","Gelieve wens lijst item te laden. "
+"Please define Wish List item ID.","Geef itemnummer verlanglijstje."
+"Please load Wish List item.","Laadt het wensenlijstproduct."
 "Login successful.","Succesvol ingelogd."
 """%1"" section source is not supported","""%1"" sectie bron wordt niet ondersteund"
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 is geen uitbreiding van \Magento\Customer\CustomerData\SectionSourceInterface"
@@ -6246,6 +6246,7 @@ Wishlist,Verlanglijst
 "Only %1 wish list(s) can be created.","Slechts %1 verlanglijst(en) kan/kunnen aangemaakt worden."
 "Unknown Magento error","Onbekende Magento fout"
 "All Wish Lists","Alle verlanlijsten"
+Price,prijs
 "Add To Order","Aan bestelling toevoegen"
 "Configure and Add to Order","Configureer en voeg toe aan bestelling"
 "No items","Geen items"
