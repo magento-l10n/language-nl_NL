@@ -1210,6 +1210,7 @@ YY,jj
 "Vault Title","Titel Kluis"
 "Merchant Account ID","Merchant Account-ID"
 "Advanced Fraud Protection","Geavanceerde Fraudebescherming"
+"Kount Merchant ID","Kount Handelaar ID"
 "CVV Verification","CVV verificatie"
 "Country Specific Settings","Land specifieke instellingen"
 "Country Specific Credit Card Types","Land specifieke kredietkaart types"
@@ -2420,6 +2421,7 @@ End,Einde
 "Disallowed file type.","Bestandstype is niet toegestaan."
 "Value for multiselect attribute %s contains duplicated values","Waarde voor multiselect attribuut %s bevat dubbele waarden"
 "Invalid Stock data for insert","Ongeldige voorraad gegevens voor invoegen"
+"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: %1","Waarde voor het 'type' subattribuut in het 'custom_options' attribuut bevat een onjuiste waarde, geaccepteerde waarden zijn: %1"
 "Minimum Qty","Minimum aantal"
 "Add Minimum Qty","Voeg minimum aantal toe"
 "Could not rebuild index for empty products array","Kan index voor lege producten niet opnieuw opbouwen"
@@ -2500,6 +2502,7 @@ Stock,Voorraad
 "All Customer Groups","Alle klantengroepen"
 Allow,Toestaan
 Deny,Weigeren
+"Use parent","Gebruik ouder"
 "Category Permissions Section","Toestemmingen categorie"
 "<strong style=""color:red"">Warning!</strong> By default this feature restricts all categories.","<strong style=""color:red"">Waarschuwing!</strong> Standaard zal deze functie alle categorieën beperken."
 "Allow Browsing Category","Toestaan om categorie te bekijken"
@@ -2588,6 +2591,7 @@ Priority,Prioriteit
 "Move to Another Campaign","Verplaatsen naar een andere Campagne"
 "Deleting the update will remove the catalog price rule from this campaign and all scheduled changes will be lost.","Verwijderen van deze update zal de Catalogus Prijsregel uit de Campagne verwijderen en alle geplande wijzigingen zullen verloren gaan."
 "Future Update already exists in this time range. Set a different range and try again.","Toekomstige update bestaat al in dit tijdsbereik. Stel een ander bereik in en probeer het opnieuw."
+Home,Thuis
 "Catalog Advanced Search","Catalogus geavanceerd zoeken"
 "Advanced Search Results","Geavanceerde zoekresultaten"
 "Search Weight",Zoekgewicht
@@ -2650,6 +2654,7 @@ Path,Pad:
 "Please choose a condition to add.","Kies een voorwaarde om toe te voegen."
 "Catalog Products List","Catalogus Producten lijst"
 "List of Products","Lijst van producten"
+Template,Sjabloon
 "Products Grid Template","Producten raster sjabloon"
 "Invalid method: %1","Ongeldige methode: %1"
 "My Cart (1 item)","Winkelwagen (1 product)"
@@ -2868,6 +2873,7 @@ Manually,Handmatig
 "Add New Block","Nieuw blok toevoegen"
 "Delete Block","Blok verwijderen"
 "Save Block","Blok opslaan"
+Identifier,Identificator
 "Manage Pages","Beheer pagina's"
 "Add New Page","Nieuwe pagina toevoegen"
 "Delete Page","Pagina verwijderen"
@@ -2979,6 +2985,7 @@ Block,Blokkeer
 "Relative to Web Site Base URL","Ten opzichte van de base-URL"
 "Page Status","Pagina status"
 "Meta Data",Meta-gegevens
+Keywords,Trefwoorden
 "You saved this page.","U heeft deze pagina opgeslagen."
 "Could not create directory.","Kan map niet maken."
 "Delete ${ $.$data.title }","Verwijder ${ $.$data.title }"
@@ -3020,6 +3027,7 @@ Companies,Bedrijven
 "Company Legal Name:",Handelsnaam:
 "Company Email:",Bedrijfsemail:
 "VAT/TAX ID:",BTW-nummer:
+"Re-seller ID:","Verkoper ID:"
 "Street Address:",Adres:
 City:,Plaats:
 Country:,Land:
@@ -3141,6 +3149,7 @@ Company:,Bedrijf:
 "Company Legal Name",Handelsnaam
 "Company Email","Bedrijfs e-mail"
 "VAT/TAX ID",BTW-nummer
+"Re-seller ID","Verkoper ID"
 "Legal Address",Vestigingsadres
 "Please select a region, state or province.","Selecteer regio, staat of provincie."
 "Phone Number",Telefoonnummer
@@ -3157,6 +3166,7 @@ Company:,Bedrijf:
 "Team Title","Team naam"
 "You don't have a company account yet.","U heeft nog geen zakelijk account."
 "VAT/TAX ID: ","BTW-nummer: "
+"Re-seller ID: ","Verkoper ID: "
 "You have no other address entries in your address book.","U hebt geen andere adressen ingevoerd in uw adresboek."
 Contacts,Contacten
 "Role Information","Rol informatie"
@@ -4543,6 +4553,7 @@ matches,"komt overeen"
 "Manage Segments","Beheer Segmenten"
 "View Combined Report","Gecombineerd Rapport Inzien"
 "We're unable to delete the segement.","We kunnen het segment niet verwijderen."
+"Custom Condition","Aangepaste Voorwaarde"
 "The quote total specified is unknown. Verify the total and try again.","Het gespecificeerde offerte totaal is onbekend. Controleer het totaal en probeer het opnieuw."
 "AVS result code","AVS resultaatcode"
 "CVN result code","CVN resultaatcode"
@@ -4582,6 +4593,7 @@ Decision,Besluit
 "Profile ID",Profiel-ID
 "Access Key",Toegangstoets
 "Secret Key","Geheime Sleutel"
+"Webhook URL should be set in your Cybersource account as Transaction Response Page.","Webhook URL moet ingesteld worden in uw Cybersource account als Transactie Response Pagina."
 "The credit card type field needs to be provided. Select the field and try again.","Het veld van het creditcardtype moet worden opgegeven. Selecteer het veld en probeer het opnieuw."
 "Import failed: %1","Import mislukt: %1"
 "%1 does not implement %2","%1 is geen implementatie van %2"
@@ -5614,6 +5626,7 @@ Constant,Constante
 "Conversion Value Type","Waardetype conversie"
 "Conversion Value",Conversiewaarde
 "Send Order Currency","Bestelling valuta"
+"Google API","Google Ads"
 "Anonymize IP","Anoniem IP"
 "Product View Optimization","Product View optimalisatie"
 "Page View Optimization","Paginaweergave optimalisatie"
