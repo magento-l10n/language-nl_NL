@@ -3523,6 +3523,8 @@ Specified,Gespecificeerd
 "You cannot run this command because the Magento application is not installed.","U kunt dit commando niet uitvoeren, want de Magento-applicatie is niet geïnstalleerd."
 "This command is unavailable right now.","Het commando is op dit moment niet beschikbaar."
 "The ""test/test/test"" path does not exists","Het ""test/test/test""-pad bestaat niet"
+some_label,een_label
+some_comment,een_opmerking
 "some prefix","een voorvoegsel"
 "element hint","element tip"
 "element comment","element opmerking"
@@ -3545,6 +3547,7 @@ Specified,Gespecificeerd
 "Web Section","Web sectie"
 "Store Email Addresses Section","Winkel E-mailadressen sectie"
 "Email to a Friend","E-mail naar een vriend"
+"'The specified image adapter cannot be used because of: ' .","'De opgegeven afbeelding adapter kan niet worden gebruikt omdat: ' ."
 "The file ""' . . '"" does not exist","Het bestand ""'"" ""bestaat niet"
 "The class for ""%1"" type wasn't declared. Enter the class and try again.","De class van het ""%1"" type is niet gedeclareerd. Vul deze in en probeer het opnieuw."
 "The ""%1"" email address is incorrect. Verify the email address and try again.","E-mailadres ""%1"" is ongeldig. Controleer het e-mailadres en probeer het opnieuw."
@@ -3656,6 +3659,7 @@ Select,Selecteer
 save,bewaar
 "Configurable Product Image","Afbeelding configureerbaar product"
 "As low as: ","Vanaf: "
+"catalogProductMediaConfig is already set","catalogProductMediaConfig is al ingesteld"
 "Could not update option with id ""%1""","Optie kon niet worden bijgewerkt met id ""%1"""
 "Product already has this option","Product heeft al deze optie"
 "The configurable product does not have any variation attribute.","Het configureerbaar product heeft geen enkel variatie attribuut."
@@ -3721,6 +3725,8 @@ save,bewaar
 "Use HTTP Only","Alleen HTTP gebruiken"
 "Cookie Restriction Mode","Cookie restrictiemodus"
 "<strong style=""color:red"">Warning</strong>:  Do not set to ""No"". User security could be compromised.","<strong style=""color:red"">waarschuwing</strong>:  Verander niet naar ""Nee"". Gebruikersbeveiliging kan worden ingeperkt."
+"'Invalid domain name: ' .","'Ongeldige domeinnaam: ' ."
+"'Invalid cookie lifetime: ' .","'Ongeldige cookie-levensduur: ' ."
 "We can't save the cron expression.","We kunnen de Cron opdracht niet opslaan."
 Daily,Dagelijks
 Weekly,Wekelijks
@@ -3744,6 +3750,7 @@ Monthly,Maandelijks
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (Geplande taken) - Alle tijden zijn in minuten"
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Zorg dat Web > (on)veilige basis-URLs goed zijn ingesteld om correcte URLs te genereren tijdens cron runs."
 "Save Currency Rates","Wisselkoersen opslaan"
+Import,Importeer
 "Manage Currency Rates","Beheer Wisselkoersen"
 "Import Service","Service importeren"
 "Save Currency Symbols","Sla valuta symbolen op"
@@ -3776,6 +3783,7 @@ Yes/No,Ja/Nee
 Alphanumeric,Alfanumeriek
 "Numeric Only","Alleen Cijfers"
 "Alpha Only","Allen Letters"
+"Strip HTML Tags","HTML-tags verwijderen"
 "Escape HTML Entities","Escape HTML Eenheden"
 "Normalize Date","Normaliseer Datum"
 "The attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscores (_) in this field. The first character should be a letter.","Attribuutcode is ongeldig. Gebruik alleen letters (a-z), cijfers (0-9) of underscores (_) in dit veld. Eerste teken moet een letter zijn."
@@ -4225,6 +4233,7 @@ Addresses,Adressen
 "The password for your account has been successfully changed.","Het wachtwoord voor uw account werd met success gewijzigd."
 "If you did not request this change, please contact us.","Indien u deze aanvraag niet heeft ingediend, contacteer ons."
 "Checkout out as a new customer","Afrekenen als een nieuwe klant"
+"Create Account","Account Aanmaken"
 "Checkout out using your account","Reken af met uw account"
 "Leave empty for default (2). Valid range: 1-4","Laat leeg voor standaard (2). Geldige opties: 1-4"
 "Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.","Waarden scheiden met puntkomma (;) <br/>Zet een puntkomma aan het begin voor een lege eerste optie.<br/> Niets invullen voor een leeg tekstveld."
@@ -4279,6 +4288,8 @@ Street,Straatnaam
 "Are you sure you want to delete the address?","Weet u zeker dat u het adres wilt verwijderen?"
 "Additional addresses","Extra adressen"
 State,Provincie
+"Reset password","Wachtwoord opnieuw instellen"
+"Invalidate tokens","Ongeldige token"
 "Update Address","Adres bijwerken"
 "Name Prefix",Voorvoegsel
 "Name Suffix",Achtervoegsel
