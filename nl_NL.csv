@@ -4429,17 +4429,23 @@ available,Beschikbaar
 "A row with this email, website, and finance website combination already exists.","Een rij met deze e-mail, website en financiën website combinatie bestaat al."
 "Data was imported by %1","Gegevens werden geimporteerd door %1"
 "Reward Points",Spaarpunten
+"Current customer does not have access to the resource ""%1""","Huidige klant heeft geen toegang tot de bron ""%1"""
+"Customer id %1 does not exist.","Klant id %1 bestaat niet."
 "Required parameters are missing: %1","Vereiste parameters ontbreken: %1"
 "Customer Address %1 is set as default billing address and can not be deleted","Klant adres %1 is ingesteld als standaard factuuradres en kan niet worden verwijderd"
 "Customer Address %1 is set as default shipping address and can not be deleted","Klant adres %1 is ingesteld als standaard verzendadres en kan niet worden verwijderd"
+"Could not find a address with ID ""%address_id""","Kan geen adres vinden met id ""%address_id"""
+"Current customer does not have permission to address with ID ""%address_id""","Huidige klant heeft geen toestemming tot adres met id ""%address_id"""
 "The current customer isn't authorized.","De huidige klant is niet geautoriseerd."
 "Customer with id ""%customer_id"" does not exist.","Klant met id ""%customer_id"" bestaat niet."
 "Provide the current ""password"" to change ""email"".","Geef het huidige ""wachtwoord"" om ""e-mail"" te wijzigen."
 "Specify the ""currentPassword"" value.","De waarde ""currentPassword"" moet worden opgegeven."
 "Specify the ""newPassword"" value.","De waarde ""newPassword"" moet worden opgegeven."
 """input"" value should be specified","De waarde ""input"" moet worden opgegeven"
+"Address ""id"" value should be specified","Adres ""id"" moet worden opgegeven"
 "Specify the ""email"" value.","De waarde ""email"" moet worden opgegeven."
 "Specify the ""password"" value.","De waarde ""password"" moet worden opgegeven."
+"""Email should be specified","""Email moet worden opgegeven"
 "Please specify a website.","Geef een website op."
 "Please specify an email.","Geef een e-mailadres op."
 "We found an invalid value in a website column.","We vonden een ongeldige waarde in een kolom van de website."
@@ -4605,6 +4611,10 @@ Decision,Besluit
 "Access Key",Toegangstoets
 "Secret Key","Geheime Sleutel"
 "Webhook URL should be set in your Cybersource account as Transaction Response Page.","Webhook URL moet ingesteld worden in uw Cybersource account als Transactie Response Pagina."
+"Admin Profile ID","Beheerder profiel ID"
+"Admin Access Key","Beheerder toegangssleutel"
+"Admin Secret Key","Beheerder geheime sleutel"
+"Admin Webhook URL","Beheerder Webhook URL"
 "The credit card type field needs to be provided. Select the field and try again.","Het veld van het creditcardtype moet worden opgegeven. Selecteer het veld en probeer het opnieuw."
 "Import failed: %1","Import mislukt: %1"
 "%1 does not implement %2","%1 is geen implementatie van %2"
@@ -4647,8 +4657,10 @@ Decision,Besluit
 Pounds,"500 gram"
 Kilograms,Kilogram
 Height,Hoogte
+Depth,Diepte
 Width,Breedte
 Regular,Normaal
+Specific,Specifiek
 "Domestic express 9:00","Binnenlandse zending 9:00"
 "Domestic express 12:00","Binnenlandse zending 12:00"
 "DHL service is not available at %s date","DHL service is niet beschikbaar op %s datum"
@@ -4965,6 +4977,9 @@ hello,hallo
 "Elasticsearch HTTP Password","Elasticsearch HTTP wachtwoord"
 "Test Connection","Test Verbinding"
 "We were unable to perform the search because of a search engine misconfiguration.","De zoekopdracht kan niet worden uitgevoerd vanwege een onjuiste zoekmachine configuratie."
+"Elasticsearch Server Hostname","Elasticsearch Server Hostnaam"
+"Elasticsearch Server Port","Elasticsearch Server Poort"
+"Elasticsearch Server Timeout","Elasticsearch Server Time-out"
 "Add New Template","Nieuw sjabloon toevoegen"
 "Transactional Emails","Transactionele e-mails"
 "Delete Template","Sjabloon verwijderen"
