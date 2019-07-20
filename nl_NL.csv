@@ -8332,7 +8332,7 @@ Registration,Registratie
 Return,Retourzending
 Returns,Retouren
 "Create Returns","Retouren aanmaken"
-"Select Items","Items selecteren"
+"Select Items","Kies producten"
 "New Return Request","Nieuw retourverzoek"
 "Create New RMA for %1 in %2","Nieuwe RMA aanmaken voor %1 in %2"
 "Create New RMA for %1","Nieuwe RMA aanmaken voor %1"
@@ -8360,6 +8360,7 @@ Split,Deel
 "New Return Item Attribute","Nieuw retourartikel attribuut"
 "Submit Returns","Terugzendingen versturen"
 "Add Selected Product(s) to returns","Voeg geselecteerde producten toe aan retour"
+"Product Name","Product naam"
 "Remaining Qty","Resterend aantal"
 "Requested Qty","Gevraagde kwantiteit"
 "Reason to Return","Reden om te retourneren"
@@ -8510,10 +8511,10 @@ Sub-items,Sub-Items
 "Remaining Quantity:","Resterend aantal:"
 "New Return for Order %1","Nieuw retour voor bestelling %1"
 "Return Items Information","Informatie Retourproducten"
-"Add Item To Return","Voeg product toe om terug te keren"
-"Return #","Keer terug #"
-"Ship From","Bezorg Vanaf"
-"Return Status","Retourzending Status"
+"Add Item To Return","Voeg product toe aan de retour aanvraag"
+"Return #","Retourzending #"
+"Ship From","Bezorg vanaf"
+"Return Status","Retourzending status"
 "View Return","Bekijk retournering"
 "You have placed no returns.","U heeft geen retourneringen geplaatst"
 Packages,Pakketten
@@ -8538,6 +8539,7 @@ Answers,Antwoorden
 "New Comment for RMA #%increment_id","Nieuwe commentaar voor RMA #%increment_id"
 "Customer %name has left a new comment:","Klant %name heeft een nieuwe opmerking achtergelaten:"
 "%store_name : New Return #%increment_id","%store_name: Nieuwe retour #%increment_id"
+"%name,","%naam,"
 "Your return request has been updated. Please see below.","Uw retourverzoek is bijgewerkt. Zie hieronder."
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","U kan de status van uw retour bekijken door <a href=""%account_url"">in te loggen op uw account</a> of <a href=""%form_url"">door gebruik van uw bestelnummer</a>."
 "If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at %store_phone","Indien u nog vragen heeft, aarzel dan niet om ons te contacteren op <a href=""mailto:%support_email"">%support_email</a> of telefonisch op %store_phone"
@@ -10615,6 +10617,7 @@ settings/addButtonLabel
 formElements/*[name(.)=../../@formElement]/settings/description
                     "
 "Initialization error component, check the spelling of the name or the correctness of the call.","Initialisatie fout component, kijk de spelling van de naam of de juistheid van de oproep na."
+"Select Items","Items selecteren"
 Columns,Kolommen
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Voer zes of meer tekens in. Spaties aan begin en eind zullen worden genegeerd."
 ui/grid/filters/elements/select,UI/grid/filters/elementen/select
