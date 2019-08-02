@@ -4337,6 +4337,7 @@ Used,Gebruikt
 available,Beschikbaar
 "Refunded to Store Credit","Teruggestort naar Winkeltegoed"
 "Store Credit update","Winkeltegoed Update"
+"%name,","%naam,"
 "We have updated your <a href=""%store_url"">%store_name</a> account and you have credit that you can use for future purchases.","We hebben uw <a href=""%store_url"">%store_name</a> account gewijzigd en u heeft winkeltegoed dat u kunt gebruiken voor uw volgende aankopen."
 "Your Store Credit balance is now %balance.","Uw winkeltegoed is nu %balance."
 "Store credit",Winkeltegoed
@@ -4611,6 +4612,7 @@ Decision,Besluit
 "Access Key",Toegangstoets
 "Secret Key","Geheime Sleutel"
 "Webhook URL should be set in your Cybersource account as Transaction Response Page.","Webhook URL moet ingesteld worden in uw Cybersource account als Transactie Response Pagina."
+"Is admin panel works on the different domain?","Is admin paneel op het andere domein actief?"
 "Admin Profile ID","Beheerder profiel ID"
 "Admin Access Key","Beheerder toegangssleutel"
 "Admin Secret Key","Beheerder geheime sleutel"
@@ -4656,12 +4658,16 @@ Decision,Besluit
 "Wrong Content Type","Verkeerd Inhoudstype"
 Pounds,"500 gram"
 Kilograms,Kilogram
+Inches,Inch
+Centimeters,Centimeter
 Height,Hoogte
 Depth,Diepte
 Width,Breedte
 Regular,Normaal
 Specific,Specifiek
 "Domestic express 9:00","Binnenlandse zending 9:00"
+Others,Overig
+"Same day","Dezelfde dag"
 "Domestic express 12:00","Binnenlandse zending 12:00"
 "DHL service is not available at %s date","DHL service is niet beschikbaar op %s datum"
 "The response is in wrong format.","De reactie kan niet verwerkt worden"
@@ -4669,13 +4675,18 @@ Specific,Specifiek
 "Zero shipping charge for '%1'","Geen verzendkosten voor '%S'"
 "Cannot identify measure unit for %1","Kan eenheid niet meten voor %1"
 "Cannot identify weight unit for %1","Kan niet identificeren gewichtseenheid is voor %1"
+"There is no items in this order","Er zitten geen items in deze bestelling"
 "Please specify origin country.","Geef een land van oorsprong op."
+Documents,Documenten
+"Non Documents","Non Documenten"
 "Height, width and length should be equal or greater than %1","Hoogte, breedte en lengte moet gelijk of groter zijn dan %1"
 "Wrong Region","Verkeerde Regio"
 "Unable to retrieve tracking","Kan tracking niet ophalen"
 "Response is in the wrong format","Antwoord is in het onjuiste formaat"
 "Error #%1 : %2","Fout #%1: %2"
+"No packages for request","Geen pakketten om op te vragen"
 "Unable to retrieve shipping label","Onmogelijk om verzendlabel op te halen"
+"Non documents","Non documenten"
 "Security validation of XML document has been failed.","Beveiligingsvalidatie van XML document is niet geslaagd."
 "The response is in the wrong format","De reactie in het verkeerde formaat"
 "Enabled for Checkout","Ingeschakeld bij Afrekenen"
@@ -4685,6 +4696,7 @@ Specific,Specifiek
 "Handling Applied","Verwerkingskosten toegepast"
 """Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Per bestelling"" laat een éénmalige verwerkingskost voor de hele bestelling toe. ""Per pakket"" laat een verwerkingskost voor elk pakket toe."
 "Handling Fee",Verwerkingskosten
+"Divide Order Weight","Verdeel Bestelling Gewicht"
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Selecteer dit om DHL te laten instaan voor een geoptimalizeerde splitsing van de bestelling indien het meer weegt dan 70kg."
 "Weight Unit",Gewichtseenheid
 Size,Grootte
@@ -4696,9 +4708,14 @@ Size,Grootte
 "Ship to Applicable Countries","Verzenden naar landen die van toepassing zijn"
 "Ship to Specific Countries","Verzenden naar bepaalde landen"
 "Show Method if Not Applicable","Laat verzendmethode zien indien niet van toepassing"
+"Customer services",Klantenservice
+"Please, specify origin country","Geef het land van oorsprong op"
 "Ready time","Klaar tijd"
 "Package ready time after order submission (in hours)","Pakket klaar na bestelling indiening (over uren)"
 "The security validation of the XML document has failed.","De beveiligingsvalidatie van het XML-document is mislukt."
+"Content Type (Non Domestic)","Inhoudstype (niet-Domestic)"
+"Documents Allowed Methods","Documenten toegestane methoden"
+"Non Documents Allowed Methods","Non Documenten Toegestane Methoden"
 kgs,kg.
 "Requested country is not available.","Verzochte land is niet beschikbaar."
 "Undefined rate from ""%1-%2"".","Onbepaald tarief van ""%1-%2""."
@@ -4731,6 +4748,7 @@ Webservicex,"Webservicex instellingen"
 "State Options",Staat-opties
 "State is Required for","Staat is verplicht voor"
 "Allow to Choose State if It is Optional for Country","Mogelijkheid tot kiezen van staat indien het optioneel is voor een land"
+"Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","Basisvaluta wordt gebruikt voor alle online betalingstransacties. Als u meerdere Winkelaanzichten heeft, wordt de basisvaluta vastgelegd bij de Catalogusprijzen (""Catalogus"" > ""Prijs"" > ""Catalogus Prijs Scope"")."
 "No API Key was specified or an invalid API Key was specified.","Geen API-sleutel is opgegeven of een ongeldige API-sleutel is opgegeven."
 "The account this API request is coming from is inactive.","Het account waar deze API-aanvraag vandaan komt, is inactief."
 "The ""%1"" is not allowed as base currency for your subscription plan.","""%1"" is niet toegestaan als basisvaluta voor uw abonnement."
@@ -4881,6 +4899,7 @@ download,downloaden
 "Attempt to add an invalid object","Poging om een ongeldig object toe te voegen"
 "Invalid attribute identifier for filter (%1)","Ongeldige attribuut-identifier voor filter (%1)"
 "Invalid attribute requested: %1","Ongeldig attribuut opgevraagd: %1"
+"Joint field or attribute expression with this alias is already declared","Gezamenlijk veld of attribuut expressie met deze alias is al afgekondigd"
 "Invalid alias, already exists in joint attributes","Ongeldige alias, bestaat al in gejoinde attributen"
 "Invalid foreign key","Ongeldige referentiesleutel"
 "Invalid entity type","Ongeldig entiteittype"
@@ -4916,6 +4935,7 @@ hello,hallo
 "EAV types and attributes","EAV typen en kenmerken"
 "Entity types declaration cache","Entiteit typen verklaringen cache"
 "Entity types declaration cache.","Entiteit typen verklaring cache."
+"'Invalid backend model specified: ' .","'Ongeldig backend model opgegeven: ' ."
 "The attribute group doesn't belong to the provided attribute set.","Attribuut groep behoort niet tot de opgegeven attribuut set."
 "The attributeGroup can't be saved.","De attribuut groep kan niet opgeslagen worden."
 "The attribute group with id ""%1"" can't be deleted.","De attribuut groep met id ""%1"" kan niet worden verwijderd."
@@ -4966,20 +4986,21 @@ hello,hallo
 """Attribute code should be specified","""Attribuutcode moet worden opgegeven"
 "Attribute code %1 of entity type %2 not configured to have a type.","Attribuut code %1 van entiteit type %2 niet geconfigureerd om een type te hebben."
 "Missing %1 for the input %2.","Ontbrekende %1 voor input %2."
+"Type %1 has no internal representation declared.","Type %1 heeft geen interne representatie opgegeven."
 "Cannot resolve EAV type","Kan EAV type niet oplossen"
 "The search failed because of a search engine misconfiguration.","De zoekactie is mislukt vanwege een onjuiste Search Engine configuratie."
 "There is no such data mapper ""%1"" for interface %2","Er is geen dergelijke gegevens mapper ""%1"" voor interface %2"
 "Data mapper ""%1"" must implement interface %2","Mapper van de gegevens ""%1"" moet interface %2 implementeren"
 "Could not ping search engine: %1","Kan niet pingen naar zoekmachine: %1"
+"Elasticsearch Server Hostname","Elasticsearch Server Hostnaam"
+"Elasticsearch Server Port","Elasticsearch Server Poort"
 "Elasticsearch Index Prefix","Elasticsearch Index voorvoegsel"
 "Enable Elasticsearch HTTP Auth","Elasticsearch HTTP Auth inschakelen"
 "Elasticsearch HTTP Username","Elasticsearch HTTP gebruikersnaam"
 "Elasticsearch HTTP Password","Elasticsearch HTTP wachtwoord"
+"Elasticsearch Server Timeout","Elasticsearch Server Time-out"
 "Test Connection","Test Verbinding"
 "We were unable to perform the search because of a search engine misconfiguration.","De zoekopdracht kan niet worden uitgevoerd vanwege een onjuiste zoekmachine configuratie."
-"Elasticsearch Server Hostname","Elasticsearch Server Hostnaam"
-"Elasticsearch Server Port","Elasticsearch Server Poort"
-"Elasticsearch Server Timeout","Elasticsearch Server Time-out"
 "Add New Template","Nieuw sjabloon toevoegen"
 "Transactional Emails","Transactionele e-mails"
 "Delete Template","Sjabloon verwijderen"
@@ -7093,8 +7114,11 @@ Dispute,Geschil
 "We cannot create a target file for reading reports.","We kunnen geen doelbestand aanmaken om rapporten te lezen."
 "Finish Date",Einddatum
 "Debit or Credit","Debit of Credit"
+"Preapproved Payment ID","Vooraf goedgekeurde betalings-ID"
+"Subscription ID",Abonnement
 "ACH Deposit (Hold for Dispute or Other Investigation)","ACH Deposit (Houd vast for conflict of ander onderzoek)"
 "ACH Deposit (Reversal)","ACH Deposit (Herroeping)"
+"ACH Funding for Funds Recovery from Account Balance","ACH-financiering voor herstel van fondsen uit het account saldo"
 "ACH Withdrawal","ACH Opname"
 "Account-to-Account Payment, initiated by PayPal","Account-naar-Account Betaling, op initiatief van PayPal"
 "Auction Payment other than through eBay","Veilig-betaling anders dan via eBay"
@@ -7102,11 +7126,46 @@ Dispute,Geschil
 "Balance Manager Account Bonus","Balans beheerder account bonus"
 "Bonus for first ACH Use","Bonus voor eerste ACH gebruik"
 "Buyer Credit Payment","Koper kredietbetaling"
+"Currency Conversion required to cover negative balance","Valuta conversie vereist om negatieve saldo te dekken"
 "Debit Card Cash Back","Debit Card Terugbetaling"
 "Debit Card Transaction","Debit Card transactie"
+"Direct Payment API","Directe betalingsAPI"
+"EFT Funding (German banking)","EFT-financiering (Duitse bank)"
+"Express Checkout APIs","Express Checkout API's"
+Funding,Financiering
 "General (Authorization)","Algemeen (Authorisatie)"
 "General (Dividend)","Algemeen (Dividend)"
+"General (Funds Transfer from PayPal Account to Another)","Algemeen (Kredietoverschrift van PayPal-account naar een ander)"
+"General (Purchase with a credit card)","Algemeen (Koop met een creditcard)"
+"General Adjustment without businessrelated event","Algemene aanpassing zonder zakelijke activiteit"
+"General Currency Conversion","Algemene valuta conversie"
+"General Funding of PayPal Account ","Algemene financiering van PayPal-account "
+"General Withdrawal from PayPal Account","Algemene opname van PayPal-account"
+"General. Product no longer supported","Algemeen. Product niet langer ondersteund"
+"General: Use of PayPal account for purchasing as well as receiving payments","Algemeen: Gebruik van PayPal-account voor aankoop en ontvangen betalingen"
+"General: Withdrawal from PayPal Account","Algemeen: Opname van PayPal-account"
+"General: Withdrawal to Non-Bank Entity","Algemeen: Opname naar niet-Bank entiteit"
+"General: adjustment of a type not belonging to the other T12xx categories","Algemene: aanpassing van een type dat niet tot de andere T12xx categorieën behoort"
+"General: bonus of a type not belonging to the other T08xx categories","Algemeen: bonus van een type dat niet tot de andere T08xx categorieën behoort"
+"General: event not yet categorized","Algemene: gebeurtenis nog niet gecategoriseerd"
+"General: non-payment fee of a type not belonging to the other T01xx categories","Algemeen: niet-betalingskosten van een type dat niet behoort tot de andere T01xx categorieën"
+"General: received payment of a type not belonging to the other T00xx categories","Algemene: ontvangen betaling van een type dat niet tot de andere T00xx categorieën behoort"
+"General: reversal of a type not belonging to the other T11xx categories","Algemeen: omkering van een type dat niet tot de andere T11xx categorieën behoort"
+"General: temporary hold of a type not belonging to the other T15xx categories","Algemeen: tijdelijke hold van een type dat niet tot de andere T15xx categorieën behoort"
+"Gift Certificate Payment: purchase of Gift Certificate","Cadeaubonnen betaling: aankoop van cadeaubon"
+"Gift Certificate Redemption","Cadeaubon inwisseling"
+"Hidden Virtual PayPal Debit Card Transaction","Verborgen Virtuele PayPal Debit Card transactie"
+"Hold for Dispute Investigation","Houd vast voor onderzoek naar Geschillen"
+Incentive,Incentief
+"Mass Pay Payment","Massa betaling"
+"Merchant Referral Bonus","Koopman Verwijzing Bonus"
 "Mobile Payment (made via a mobile phone)","Mobiele Betaling (gedaan via een mobiele telefoon)"
+"Negative Balance","Negatieve balans"
+"Open Authorization","Open autorisatie"
+"PayPal Balance Manager function of PayPal account","PayPal Balance Manager functie van PayPal-account"
+"PayPal Buyer Warranty Bonus","PayPal koper garantie Bonus"
+"PayPal Debit Card Withdrawal from ATM","PayPal Debit Card Opname van ATM"
+"PayPal Protection Bonus","PayPal Beschermings Bonus"
 "Preapproved Payment (BillUser API, either sent or received","Vooraf goedgekeurde betaling (BillUser API, verzonden of ontvangen"
 Reauthorization,"Opnieuw autoriseren"
 Void,"Nietig verklaard"
@@ -7365,6 +7424,18 @@ Gebruik de gratis banneradvertenties van PayPal waarmee u kunt adverteren voor P
 Het PayPal-advertentieprogramma heeft aangetoond extra aankopen te genereren en de gemiddelde aankoopomvang van consumenten met 15% te verhogen
 of meer. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank""> Details bekijken </a>."
 Large,Groot
+Shape,Vorm
+Color,Kleur
+"Product Pages",Productpagina
+"Cart Page","Pagina winkelwagen"
+"Mini Cart","Mini winkelwagentje"
+Features,Eigenschappen
+"Disable Funding Options","Opties voor financiering uitschakelen"
+"PayPal will automatically display each enabled funding option to eligible buyers.
+                                For example, PayPal Credit is only shown to buyers in countries where PayPal Credit is
+                                offered and the currency offered by the merchant is USD.","PayPal zal automatisch elke optie voor het beschikbaar stellen van de financiering aan de in aanmerking komende kopers weergeven.
+                                Bijvoorbeeld, PayPal Credit wordt alleen getoond aan de kopers in landen waar PayPal Credit
+                                is aangeboden en de valuta die de handelaar aanbiedt is USD."
 "Not you?","Bent u het niet?"
 "Your shopping cart has been updated with new prices.","Uw winkelwagen is bijgewerkt met de nieuwe prijzen."
 "Welcome, %1!","Welkom, %1!"
@@ -7541,7 +7612,9 @@ Carts,Winkelwagens
 "Missing key ""sku"" in cart item data","Ontbrekende sleutel ""sku"" in artikelgegevens in winkelwagen"
 "Missing key ""qty"" in cart item data","Ontbrekende sleutel ""qty"" in artikelgegevens in winkelwagen"
 "Could not find a cart with ID ""%masked_cart_id""","Kan geen winkelwagen vinden met ID ""%masked_cart_id"""
+"Current user does not have an active cart.","Huidige klant heeft geen actieve winkelwagen."
 "The current user cannot perform operations on cart ""%masked_cart_id""","De huidige gebruiker kan geen bewerkingen uitvoeren op winkelwagen ""%masked_cart_id"""
+"Could not find a cart address with ID ""%cart_address_id""","Kan geen adres vinden met id ""%address_id"""
 "You cannot specify multiple shipping addresses.","U kunt niet meerdere verzendadressen opgeven."
 "The shipping address must contain either ""customer_address_id"" or ""address"".","Het verzendadres moet ""customer_address_id"" of ""adres"" bevatten."
 "The shipping address cannot contain ""customer_address_id"" and ""address"" at the same time.","Het verzendadres kan niet tegelijkertijd ""klant_address_id"" en ""adres"" bevatten."
@@ -8061,6 +8134,7 @@ undefined,"niet van toepassing"
 "Product %1 has been added to the requisition list %2.","Product %1 is toegevoegd aan bestellijst %2."
 "Options were updated. Please review available configurations.","Opties zijn bijgewerkt. Controleer de beschikbare configuraties."
 "Could not save Requisition List. Maximum number of requisition lists was exceeded.","Bestellijst kon niet worden opgeslagen. Maximum aantal bestellijsten werd overschreden."
+"Warning message.",Waarschuwingsbericht.
 "Could not save","Kan niet opslaan"
 "Add to Requisition List","Toevoegen aan bestellijst"
 "Update Requisition List","Update bestellijst"
@@ -8539,7 +8613,6 @@ Answers,Antwoorden
 "New Comment for RMA #%increment_id","Nieuwe commentaar voor RMA #%increment_id"
 "Customer %name has left a new comment:","Klant %name heeft een nieuwe opmerking achtergelaten:"
 "%store_name : New Return #%increment_id","%store_name: Nieuwe retour #%increment_id"
-"%name,","%naam,"
 "Your return request has been updated. Please see below.","Uw retourverzoek is bijgewerkt. Zie hieronder."
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","U kan de status van uw retour bekijken door <a href=""%account_url"">in te loggen op uw account</a> of <a href=""%form_url"">door gebruik van uw bestelnummer</a>."
 "If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at %store_phone","Indien u nog vragen heeft, aarzel dan niet om ons te contacteren op <a href=""mailto:%support_email"">%support_email</a> of telefonisch op %store_phone"
@@ -9344,6 +9417,10 @@ Gebruikslimiet wordt alleen voor ingelogde klanten afgedwongen.                 
 "Category (Children Only)","Categorie (alleen kinderen)"
 "(Parent Only)","(Alleen ouder)"
 "(Children Only)","(Alleen kinderen)"
+"Your coupons are ready","Uw coupons zijn klaar"
+"You can check your coupons at sales rule page","U kunt uw coupons controleren op de verkoopregelpagina"
+"Error during coupons generator process occurred","Fout tijdens coupons generator proces opgetreden"
+"Error during coupons generator process occurred. Please check logs for detail","Fout tijdens coupons generator proces opgetreden. Controleer logs voor details"
 "An error occurred during processing; coupon with id %1 expiration date wasn't updated. The error message was: %2","Er is een fout opgetreden tijdens de verwerking; de vervaldatum van kortingscode met id %1 is niet bijgewerkt. De foutmelding was: %2"
 "The cart price rule will be removed from the update and all scheduled changes will be lost.","De winkelwagen prijsregel zal worden verwijderd uit de update en alle geplande wijzigingen zullen verloren gaan."
 "Remove Cart Price Rule from Campaign","Verwijder Winkelwagen Prijs Regel uit Campagne"
@@ -9358,6 +9435,7 @@ Gebruikslimiet wordt alleen voor ingelogde klanten afgedwongen.                 
 "Add Scheduled Import","Voeg geplande import toe"
 "Scheduled Import/Export","Geplande Import/Export"
 "Please correct the scheduled operation type.","Corrigeer het type van de geplande actie."
+"Server Type",Servertype
 "File Directory","Bestands Indexering"
 "For Type ""Local Server"" use relative path to Magento installation, e.g. var/export, var/import, var/export/some/dir","Voor type ""Local Server"" gebruik relatief pad naar Magento installatie, bijv. var/export, var/import, var/export/some/dir"
 "File Mode",Bestandsmodus
@@ -9716,6 +9794,7 @@ Explanation,Uitleg
 "Order tracking",Ordertracering
 "Tracking Number:",Trackingnummer:
 Carrier:,Vervoerder:
+"Tracking information is currently not available. Please ","Tracking-informatie is momenteel niet beschikbaar. Gelieve te gebruiken "
 "contact us","neem contact op"
 " for more information or "," voor meer informatie of "
 Info:,Informatie:
@@ -10885,10 +10964,15 @@ Variable,Variabel
 "Padded Flat-Rate Envelope","Padded vast-bedrag envelop"
 Rectangular,Rechthoekig
 Non-rectangular,"Niet rechthoekig"
+"Service type does not match","Service type komt niet overeen"
 Gift,Kado
 Machinable,Machinaal
 "First-Class Mail Parcel","First-Class Mail pakket"
 "Flat-Rate Box","Gelijk-tarief doos"
+"Standard Post","Standaard verzending"
+"Priority Mail Express Flat Rate Boxes","Vast tarief Priority Mail expres doos"
+"Priority Mail Express Flat Rate Boxes Hold For Pickup","Vast tarief Priority Mail expres doos - vasthouden voor afhalen"
+"Priority Mail Express International Flat Rate Boxes","Vast tarief Priority Mail Express International doos"
 "Add New Variable","Voeg nieuwe variabele toe"
 "Custom Variable ""%1""","Aangepaste variabele ""%1"""
 "New Custom Variable","Nieuwe aangepaste variabele"
@@ -10915,6 +10999,8 @@ Machinable,Machinaal
 "No payment tokens are available for the specified order payment.","Er zijn geen betalingtokens beschikbaar voor de opgegeven betaling van de order."
 "Credit Card was successfully removed","Creditkaart is succesvol verwijderd"
 "You have no credit cards.","U heeft geen Creditkaarten."
+"Specify the ""public_hash"" value.","Geef de ""public_hash"" waarde op."
+"Could not find a token using public hash: %1","Kan geen token vinden met publieke hash: %1"
 "Delete Current Hierarchy","Verwijder Huidige Hiërarchie"
 "Pages Hierarchy","Pagina Hiërarchie"
 "Page Properties","Pagina Eigenschappen"
@@ -11126,6 +11212,7 @@ Logic,Logica
 Sort,Sorteer
 "Automatic Sorting","Automatisch sorteren"
 "Sort order",Sorteervolgorde
+"Wait loading...","Wachten op laden..."
 "Rule %1 does not exists","Regel %1 bestaat niet"
 "Consumer is not authorized to access %resources","Gebruiker is niet gemachtigd tot %resources"
 "Operation allowed only in HTTPS","Operatie kan enkel in HTTPS"
