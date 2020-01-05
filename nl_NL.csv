@@ -5141,6 +5141,7 @@ Station,Status
 "FedEx 25kg Box","FedEx 25kg doos"
 "Your Packaging","Uw verpakking"
 "Not Required","Niet verplicht"
+Adult,Volwassenen
 "Invalid response from carrier","Ongeldige reactie van vervoerder"
 "No available tracking items","Geen tracking-items beschikbaar"
 "For some reason we can't retrieve tracking info right now.","Om een of andere reden kunnen we nu geen tracking info ophalen."
@@ -5154,6 +5155,8 @@ Packaging,Verpakking
 Dropoff,Dropshipment
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Maximum pakketgewicht (Vraag uw transportbedrijf naar het maximaal toegestane pakketgewicht)"
 "Residential Delivery","Particulier adres"
+"The field is applicable if the Smart Post method is selected.","Het veld is van toepassing als de Smart Post methode is geselecteerd."
+"Expected Delivery:","Verwachte levering:"
 "Gift Card Information","Cadeau kaartinformatie"
 Virtual,Virtuele
 Physical,Fysiek
