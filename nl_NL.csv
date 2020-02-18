@@ -4337,7 +4337,6 @@ Used,Gebruikt
 available,Beschikbaar
 "Refunded to Store Credit","Teruggestort naar Winkeltegoed"
 "Store Credit update","Winkeltegoed Update"
-"%name,","%naam,"
 "We have updated your <a href=""%store_url"">%store_name</a> account and you have credit that you can use for future purchases.","We hebben uw <a href=""%store_url"">%store_name</a> account gewijzigd en u heeft winkeltegoed dat u kunt gebruiken voor uw volgende aankopen."
 "Your Store Credit balance is now %balance.","Uw winkeltegoed is nu %balance."
 "Store credit",Winkeltegoed
