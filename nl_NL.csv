@@ -5713,6 +5713,7 @@ Creative,Creatieve
 "Export Settings","Export Instellingen"
 "Entity Type","Eenheid Type"
 "Export File Format","Export bestandsformaat"
+"Fields Enclosure","Velden afbakening"
 "We can't filter an attribute with no attribute options.","Wij kunnen een attribuut zonder attribuut opties niet filteren."
 "Fixed Price: From","Vaste prijs: vanaf"
 Filter,Filteren
@@ -5726,6 +5727,7 @@ Filter,Filteren
 "Please specify number of errors to halt import process","Geef het aantal errors wanneer het import proces wordt gestopt op"
 "Field separator",Veldscheidingsteken
 "Multiple value separator","Meerdere waarde scheidingsteken"
+"Fields enclosure","Velden afbakening"
 "File to Import","Te importeren bestand"
 "Select File to Import","Selecteer bestanden om te importeren"
 "Images File Directory","Foto's Bestanden Folder"
@@ -6119,7 +6121,11 @@ Invitation,Uitnodiging
 "Display Product Count","Toon aantal producten"
 "Price Navigation Step Calculation","Prijsweergave (stappen)"
 "Default Price Navigation Step","Stappen (10/20/30/ etc...)"
+"Maximum Number of Price Intervals","Maximaal aantal prijsintervallen"
+"Maximum number of price intervals is 100","Maximaal aantal prijsintervallen is 100"
 "Display Price Interval as One Price","Toon prijs-stap als één prijs"
+"This setting will be applied when all prices in the specific price interval are equal.","Deze instelling wordt toegepast wanneer alle prijzen in het specifieke prijsinterval gelijk zijn."
+"Interval Division Limit","Interval deellimiet"
 "Please specify the number of products, that will not be divided into subintervals.","Geef het aantal producten op, welke niet in deelintervallen verdeeld zullen worden."
 "Position of attribute in layered navigation block","Positie van attribuut in gelaagde-navigatieblok"
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee, Dropdown, Multiple select en Prijs"
@@ -6131,6 +6137,8 @@ Invitation,Uitnodiging
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee, Dropdown, Multiple select en Prijs."
 "Can be used only with catalog input type Yes/No (Boolean), Dropdown, Multiple Select and Price.","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee (Boolean), Dropdown, Multiple select en Prijs."
 "Admin Actions Log Archive","Admin Actief Logboek"
+"Log Entry #%1","Log entry #%1"
+"Log Entry Details","Log entry details"
 "Source Data",Brongegevens
 "Value Before Change","Waarde voor wijzigen"
 "Value After Change","Waarde na wijzigen"
@@ -6345,6 +6353,7 @@ Price,prijs
 "Product Info",Productinformatie
 "Could not create a wish list.","Kon geen verlanglijst aanmaken."
 "The default wish list can't be deleted.","De standaard verlanglijst kan niet worden verwijderd."
+"Edit wish list","Verlanglijst bewerken"
 "Ship to Multiple Addresses","Verzenden naar meerdere adressen"
 "Billing Information - %1","Factuuradres - %1"
 "Review Order - %1","Controleer bestelling - %1"
