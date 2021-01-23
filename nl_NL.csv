@@ -1529,7 +1529,7 @@ Day,Dag
 "<label class=""label""><span>from</span></label>","<label class=""label""><span>van</span></label>"
 "<label class=""label""><span>to</span></label>","<label class=""label""><span>tot</span></label>"
 [GLOBAL],[GLOBAAL]
-"[STORE VIEW]",[WINKELAANZICHT]
+"[STORE VIEW]",[WINKELWEERGAVE]
 "WYSIWYG Editor","WYSIWYG editor"
 "Add Product","Product toevoegen"
 "Product Attributes",Productkenmerken
@@ -1552,6 +1552,7 @@ Day,Dag
 "Select ""Yes"" to add this attribute to the list of column options in the product grid.","Selecteer ""Ja"" om dit attribuut toe te voegen aan de lijst van kolomopties in de productentabel."
 "Use in Filter Options","Gebruik bij filteropties"
 "Select ""Yes"" to add this attribute to the list of filter options in the product grid.","Selecteer ""Ja"" om dit attribuut aan de lijst van filteropties in de productentabel toe te voegen."
+"Store View",Winkelweergave
 Global,Systeem
 Scope,Bereik
 "Declare attribute value saving scope.","Attribuutwaarde opgeven voor opslaan van scope."
@@ -2107,7 +2108,7 @@ Comma-separated.,"gescheiden door een komma"
 "Display Type","Weergave modus"
 "All products - recently added products, New products - products marked as new","Alle producten - recent toegevoegde producten, Nieuwe producten - producten gemarkeerd als nieuw"
 "All products","Alle producten"
-"New products","Nieuwe prodcuten"
+"New products","Nieuwe producten"
 "Display Page Control","Toon paginering"
 "Number of Products per Page","Aantal producten per pagina"
 "Number of Products to Display","Aantal producten op de display"
@@ -2341,6 +2342,7 @@ Closed,gesloten
 "Display Countdown Ticker On","Weergave afteller aan"
 "Category Page","Categorie pagina"
 "Product Page",productpagina
+"[STORE VIEW]",[WINKELAANZICHT]
 "Coming Soon","Komt spoedig"
 "Sale Ends In","verkoop eindigt in"
 "You deleted the event.","U hebt de gebeurtenis verwijderd."
@@ -2722,6 +2724,7 @@ Error!,Fout!
 "Estimate Shipping and Tax","Bekijk verzendkosten en BTW"
 "Order #",Ordernr.
 "Proceed to Checkout","Ga door naar afrekenen"
+"Product Name",Productnaam
 "Your order number is: %1.","Uw bestelnummer is: %1."
 "Your order # is: <span>%1</span>.","Uw bestelnummer is: <span>%1</span>."
 "We'll email you an order confirmation with details and tracking info.","We sturen u een orderbevestiging met verdere details en informatie."
@@ -5130,6 +5133,8 @@ Ground,"Grond vervoer"
 "International Priority","Internationaal Priority"
 "Intl Priority Freight","Int. Priority Freight"
 "Standard Overnight","Standaard vannacht"
+"Regular Pickup","Standaard afhaling"
+"Request Courier","Koerier aanvragen"
 "Drop Box","Drop box"
 Station,Status
 "FedEx Envelope","FedEx enveloppe"
@@ -5149,7 +5154,9 @@ status,Status
 "Account ID",Klant-ID
 "Please make sure to use only digits here. No dashes are allowed.","Gebruik alleen cijfers. Streepjes zijn niet toegestaan."
 Key,Sleutel
+"Sandbox Mode","Sandbox modus"
 "Web-Services URL (Production)","Web-Services URL (productie)"
+"Packages Request Type","Pakketten verzoektype"
 Packaging,Verpakking
 Dropoff,Dropshipment
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Maximum pakketgewicht (Vraag uw transportbedrijf naar het maximaal toegestane pakketgewicht)"
@@ -6225,6 +6232,7 @@ Result,Resultaat
 "Full Action Name","Volledige Actienaam"
 "Full Details","Volledige Details"
 "More permissions are needed to access this.","Meer bevoegdheden zijn nodig om hier toegang toe te hebben."
+"Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.","Als vertegenwoordigers van Magento's hoogste niveau van partnerbetrokkenheid, hebben Magento Platinum Partners zich gevestigd als leiders en vernieuwers van de belangrijkste producten en diensten ontworpen om te helpen handelaren en merken de groei van hun bedrijf. Magento behoudt zich het Platinum-niveau voor een select aantal vertrouwde partners die zich inzetten voor het aanbieden van integraties van de handel mogelijkheden, functies en hulpmiddelen, evenals back-end systemen en operaties, uit te breiden en verbeteren van de kracht van het Magento commerce platform."
 "Featured Platinum Partners","Aanbevolen Platinum Partners"
 "Partner search","Partner zoeken"
 "Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento beschikt over een bloeiend ecosysteem van technologiepartners om handelaars en merken de best mogelijke kantervaring te leveren. Ze worden erkend als expert in e-Commerce, zoeken, e-mail marketing, betalingen, btw, fraude, optimalisatie en analytics, vervulling, en meer. Bezoek de Magento Partner Directory om al onze vertrouwde partners te bekijken."
@@ -9090,7 +9098,7 @@ Complete,Voltooid
 "Email Copy of Credit Memo","E-mail kopie van creditfactuur"
 "Please enter a positive number in this field.","Vul een positief getal invullen in dit veld."
 "Items Refunded","Terugbetaalde artikelen"
-"No Items","Geen artikelen"
+"No Items","Geen Items"
 "Memo Total","Memo totaal"
 "Credit Memo History",Creditfactuur-geschiedenis
 "Credit Memo Totals",Creditfactuur-totalen
