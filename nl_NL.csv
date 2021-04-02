@@ -382,7 +382,12 @@ Environment,Omgeving
 options,opties
 "Select all","Alles selecteren"
 "Deselect all","Alles deselecteren"
+"We couldn't find any records.","We konden geen records vinden."
+Show,Weergeven
+"per page","per pagina"
 "%s of %s selected","%s van %s geselecteerd"
+"Search by keyword","Zoeken op trefwoord"
+"This is a required field.","Dit is een verplicht veld."
 "B2B Features","B2B functies"
 "Invalid Form Key. Please refresh the page.","Ongeldige formuliersleutel. Ververs de pagina."
 "You entered an invalid Secret Key. Please refresh the page.","Er is een incorrecte Secret Key ingevoerd. Ververs de pagina."
@@ -627,7 +632,6 @@ Images,Afbeeldingen
 "Additional Settings","Aanvullende instellingen"
 "records found","records gevonden"
 selected,geselecteerd
-"per page","per pagina"
 "Previous page","Vorige pagina"
 "of %1","van %1"
 "Next page","Volgende pagina's"
@@ -2819,7 +2823,6 @@ Reverted,Terugstellen
 "The Payment on Account method is not available in the selected currency. Please contact the seller.","Betaal op rekening is niet beschikbaar voor de geselecteerde valuta. Neem contact op met de verkoper."
 "Company credit account will be charged: ","Bedrijfskrediet wordt in rekening gebracht: "
 "Cancel the Order","Annuleer bestelling"
-"This is a required field.","Dit is een verplicht veld."
 "{oldCur}/{newCur} Rate","{oldCur}/{newCur} Koers"
 Reimburse,Vergoeden
 "Please use only letters (a-z or A-Z), numbers (0-9), dash (-) or slash (/) in this field.","Gebruik alleen letters (a-z of A-Z), cijfers (0-9), streepje (-) of schuine streep (/) in dit veld."
@@ -6081,7 +6084,7 @@ Vendor,Verkoper
 "Invalid block type: %1","Ongeldig bloktype: %1"
 "Price change alert! We wanted you to know that prices have changed for these products:","Melding bij wijziging van prijs! We willen u laten weten dat de prijzen voor deze producten veranderd zijn:"
 Price:,Prijs:
-"Click here to stop alerts for this product.","Klik hier om notificaties voor die product uit te schakelen."
+"Click here to stop alerts for this product.","Klik hier om notificaties voor dit product uit te schakelen."
 "Unsubscribe from all price alerts","Opzeggen van alle prijswijzigingen"
 "In stock alert! We wanted you to know that these products are now available:","In voorraad melding! We wilden jou laten weten dat de volgende producten nu weer in voorraad zijn:"
 "Unsubscribe from all stock alerts","Opzeggen van alle voorraadwijzigingen"
@@ -8625,7 +8628,6 @@ Off,Uit
 "You have successfully saved your edits.","Uw bewerkingen zijn opgeslagen."
 "There are {placeholder} messages requires your attention.","Er zijn {placeholder} berichten die uw aandacht vereisen."
 "You haven't selected any items!","Er zijn geen producten geselecteerd!"
-"Search by keyword","Zoeken op trefwoord"
 Keyword,Trefwoord
 "Please enter more or equal than {0} symbols.","Voer {0} of meerdere symbolen in."
 "Please enter less or equal than {0} symbols.","Voer {0} of minder symbolen in."
