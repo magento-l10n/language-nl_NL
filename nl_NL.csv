@@ -2911,7 +2911,7 @@ Reimburse,Vergoeden
 "The credit limit for %s is %s. It will be exceeded by %s with this order.","De kredietlimiet voor %s is %s. Bij deze bestelling wordt deze met %s overschreden."
 "Payment on Account","Betaal op rekening"
 "Company Credit Change Email Sender","Bedrijfskrediet wijziging E-mail afzender"
-"Send Company Credit Change Email Copy To","Sttur Bedrijfskrediet wijzigen E-mail kopie naar"
+"Send Company Credit Change Email Copy To","Stuur bedrijfskrediet wijzigen e-mail kopie naar"
 "Allocated Email Template","Toegewezen E-mail sjabloon"
 "This email is sent to the Company Admin.","Deze e-mail wordt verzonden naar de bedrijfsbeheerder."
 "Updated Email Template","Bijgewerkt E-mail sjabloon"
