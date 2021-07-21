@@ -2415,12 +2415,16 @@ Identifier,Identificator
 Created,Aangemaakt
 Modified,Gewijzigd
 "Media Storage","Media opslag"
+Cancel,Annuleren
 "Delete Folder","Map verwijderen"
+"Delete Selected","Selectie verwijderen"
+"Create Folder","Map aanmaken"
 "New Folder Name:","Nieuwe mapnaam"
 "Are you sure you want to delete this folder?","Weet u zeker dat u deze map wilt verwijderen?"
 "Are you sure you want to delete this file?","Weet u zeker dat u dit bestand wilt verwijderen?"
 "Images (%1)","Afbeeldingen (%1)"
 "Storage Root","Opslag root"
+"The CMS block with identifier ""%identifier"" is not enabled.","Het CMS-blok met identifier ""%identifier"" is niet ingeschakeld."
 "You deleted the block.","Het blok is verwijderd."
 "We can't find a block to delete.","Blok om te verwijderen niet gevonden."
 "This block no longer exists.","Dit blok bestaat niet langer meer"
@@ -2443,28 +2447,47 @@ Pages,Pagina's
 "To apply changes you should fill in hidden required ""%1"" field","Om de wijzigingen toe te passen dient u het verborgen benodigde veld ""%1"" in te vullen"
 "You saved the page.","Pagina opgeslagen."
 "You duplicated the page.","U heeft de pagina gedupliceerd."
+"Wrong request.","Verkeerd verzoek."
 "Directory %1 is not under storage root path.","Map %1 is niet opgeslagen onder het hoofdpad"
+"Can't create %1 as subdirectory of %2, you might have some permission issue.","Kan %1 niet als submap van %2 aanmaken, mogelijk heeft u een probleem met rechten."
 "Make sure that static block content does not reference the block itself.","Zorg ervoor dat de inhoud van een statisch blok niet naar zichzelf verwijst."
+"Content field contains restricted HTML elements. %1","Inhoudveld bevat beperkte HTML-elementen. %1"
+"The CMS block with the ""%1"" ID doesn't exist.","CMS blok met id ""%1"" bestaat niet."
 "Enabled by Default","Standaard ingeschakeld"
 "Disabled by Default","Standaard uitgeschakeld"
 "Disabled Completely","Volledig uitgeschakeld"
+"The CMS page with the ""%1"" ID doesn't exist.","CMS pagina met id ""%1"" bestaat niet."
 "This identifier is reserved for ""CMS No Route Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS geen Route pagina"" in configuratie."
 "This identifier is reserved for ""CMS Home Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS Home Pagina"" in configuratie."
 "This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS Geen Cookies Pagina"" in configuratie."
+"Content HTML contains restricted elements. %1","Inhoud bevat beperkte HTML-elementen. %1"
+"You are not allowed to change CMS pages design settings","U bent niet toegestaan om CMS pagina's ontwerp instellingen te wijzigen"
+"Invalid Custom Layout Update selected","Ongeldige aangepaste lay-out update geselecteerd"
+"Page ""%id"" doesn't have custom layout assigned","Pagina ""%id"" heeft geen aangepaste lay-out toegewezen"
 "Could not save the page: %1","Kon pagina niet opslaan: %1"
 "Could not delete the page: %1","Kon pagina niet verwijderen: %1"
+"The value specified in the URL Key field would generate a URL that already exists.","De waarde gespecificeerd in het URL-key veld zou een URL genereren die al bestaat."
+"Required field ""%1"" is empty.","Vereist veld ""%1"" is leeg."
+"Layout update is invalid","Lay-out update is ongeldig"
+"Custom layout update is invalid","Aangepaste lay-out update is ongeldig"
 "A block identifier with the same properties already exists in the selected store.","Een block identifier met dezelfde eigenschappen bestaat reeds."
+"The page URL key can't use capital letters or disallowed symbols. Remove the letters and symbols and try again.","De URL van de pagina kan geen hoofdletters of niet-toegestane symbolen bevatten. Verwijder de letters en symbolen en probeer het opnieuw."
 "We found a directory with the same name. Please try another folder name.","We vonden een map met dezelfde naam. Probeer een andere map naam."
 "We cannot create a new directory.","We kunnen geen nieuwe map aanmaken."
 "We cannot delete directory %1.","We kunnen map %1 niet verwijderen."
 "We can't upload the file right now.","Wij kunnen het bestand nu niet uploaden."
 "We can't delete root directory %1 right now.","Wij kunnen de hoofddirectory %1 nu niet verwijderen."
 "Privacy and Cookie Policy","Privacy en Cookie Policy"
+"Error message",Foutmelding
 "Could not create a directory.","Kon geen map aanmaken."
+"Invalid format","Ongeldig formaat"
+"Invalid html","Ongeldige html"
 "Are you sure you want to delete a %1 record?","Weet u zeker dat u een %1 record wilt verwijderen?"
 View,Bekijk
 "No files found","Geen bestanden gevonden"
+"Upload Images","Afbeeldingen uploaden"
 "Save Page","Pagina opslaan"
+"Edit Page Design","Pagina-ontwerp bewerken"
 "Media Gallery",Mediagallerij
 "Content Management",CMS-instellingen
 "CMS Home Page","CMS homepagina"
@@ -2497,6 +2520,18 @@ Block,Blokkeer
 "Enable Page","Pagina inschakelen"
 "Content Heading","Content Titel"
 "Page in Websites","Pagina in Websites"
+"Custom Layout Update","Aangepaste lay-out update"
+"
+                        List of layout files with an update handle ""selectable""
+                        matching *PageIdentifier*_*UpdateID*.
+                        <br/>
+                        See Magento documentation for more information
+                    ","
+                        Lijst van lay-out bestanden met een update handvat ""selectable""
+                        overeenkomend met *PageIdentifier*_*UpdateID*.
+                        <br/>
+                        Zie Magento documentatie voor meer informatie
+                    "
 "Custom Design Update","Aangepaste ontwerp Update"
 "New Layout","Nieuwe lay-out"
 "Custom design from","Aangepast ontwerp van"
@@ -2505,7 +2540,6 @@ Block,Blokkeer
 "Custom Layout","Custom lay-out"
 """identifiers"" of CMS blocks should be specified","""identifiers"" van CMS-blokken moeten worden opgegeven"
 """Page id should be specified","De waarde ""page id"" moet worden opgegeven"
-"The CMS block with the ""%1"" ID doesn't exist.","CMS blok met id ""%1"" bestaat niet."
 Identifier,1
 "The block will be removed from the update and all scheduled changes will be lost.","Het blok zal worden verwijderd uit de update en alle geplande wijzigingen zullen verloren gaan."
 "Remove CMS page from Update","Verwijder CMS pagina van Update"
@@ -2631,7 +2665,6 @@ Blocked,Geblokkeerd
 "Exception message",Foutmelding
 phrase,zin
 "Localized Exception.","Localizatie Fout."
-"Error message",Foutmelding
 "No such entity.","Entiteit bestaat niet."
 "error message",foutmelding
 "Could not save role","Kan rol niet opslaan"
@@ -2660,7 +2693,6 @@ Company:,Bedrijf:
 "Add User","Gebruiker toevoegen"
 "Add Team","Team toevoegen"
 "Edit Selected","Selectie bewerken"
-"Delete Selected","Selectie verwijderen"
 "Team Title","Team naam"
 "You don't have a company account yet.","U heeft nog geen zakelijk account."
 "VAT/TAX ID: ","BTW-nummer: "
@@ -9054,7 +9086,6 @@ Machinable,Machinaal
 "Validation has failed.","Validatie is mislukt."
 "Variable ID","Variabele ID"
 "No token found.","Geen token gevonden."
-"Wrong request.","Verkeerd verzoek."
 "Deletion failure. Please try again.","Verwijderen mislukt. Probeer het opnieuw."
 "Stored Payment Method was successfully removed","Opgeslagen betalingsmethode werd met succes verwijderd"
 "Stored Payment Methods","Opgeslagen betalingsmethoden"
