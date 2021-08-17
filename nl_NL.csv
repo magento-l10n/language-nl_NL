@@ -91,9 +91,11 @@ Configure,Configureren
 "You must buy at least %1 of these per purchase.","U moet ten minste %1 van dit product aanschaffen per aankoop."
 "Specify the product's options.","Geef de productopties aan."
 "Alert me when this item is available.","Waarschuw me wanneer dit product beschikbaar is."
+"This customer couldn't be found. Verify the customer and try again.","Deze klant kan niet worden gevonden. Controleer de klant en probeer het nogmaals."
 "Shopping cart management is disabled for this customer.","Winkelwagenbeheer uitgeschakeld voor deze klant."
 Customers,Klanten
 "Shopping Cart",Winkelwagen
+"An error occurred. For details, see the error log.","Er is een fout opgetreden. Voor details, raadpleeg het foutenlogboek."
 "You do not have access to this.","U heeft geen toegang hier toe."
 "An error has occurred. See error log for details.","Er is een fout opgetreden. Ga naar het logboek voor details."
 "You cannot configure a product.","U kan het product niet aanpassen."
@@ -125,6 +127,7 @@ Customers,Klanten
 "Yes, for Specified Customer Groups","Ja, voor opgegeven klantengroepen"
 "Yes, for Everyone","Ja, voor iedereen"
 No,Nee
+"The file is corrupt and can't be used.","Het bestand is corrupt en kan niet worden gebruikt."
 "Please upload the file in .csv format.","Upload het bestand in .csv formaat."
 "%1 item(s) need your attention.","%1 producten(en) vereisen uw aandacht."
 "Apply Coupon Code","Pas kortingscode toe"
