@@ -653,7 +653,6 @@ Minute,Minuut
 "Report an Issue","Meld een probleem"
 Scope:,Bereik:
 "Stores Configuration","Winkels Configuratie"
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Bevestig wijziging toepassing niveau. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan."
 "Additional Cache Management","Additionele cacheopties"
 "Flush Catalog Images Cache","Leeg Catalogus Afbeeldingen Cache"
 "Pregenerated product images files","Voorgegenereerde productafbeeldingsbestanden"
@@ -686,6 +685,7 @@ Loading...,"Bezig met laden..."
 Examples,Voorbeelden
 "Use Default Value","Gebruik standaard waarde"
 "We could not detect a size.","We kunnen geen grootte detecteren."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Bevestig wijziging toepassing niveau. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan."
 "Warning message","Waarschuwing bericht"
 "This operation can take a long time","Deze bewerking kan lang duren"
 "Allow everything","Alles toestaan"
@@ -2096,10 +2096,8 @@ End,Einde
 "Allow Qty Below 0 and Notify Customer","Aantal onder 0 toestaan en klant inlichten"
 "Unable to remove Stock with id ""%1""","Kan Stock niet verwijderen met id ""%1"""
 "Unable to remove Stock Status for product %1","Kan Stock Status niet verwijderen voor product %1"
-"Not all of your products are available in the requested quantity.","Niet al uw producten zijn beschikbaar in het gevraagde aantal."
-"The fewest you may purchase is %1.","Het minimale dat u kunt bestellen is %1."
 "Please correct the quantity for some products.","Corrigeer het aantal voor sommige producten."
-"The most you may purchase is %1.","Het meeste dat u kunt kopen is %1."
+"The fewest you may purchase is %1.","Het minimale dat u kunt bestellen is %1."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren."
 "You can buy %1 only in quantities of %2 at a time.","U kunt %1 alleen in hoeveelheden van %2 kopen in één keer."
@@ -2255,7 +2253,6 @@ Path,Pad:
 "List of Products","Lijst van producten"
 Template,Sjabloon
 "Products Grid Template","Producten raster sjabloon"
-"Invalid method: %1","Ongeldige methode: %1"
 "My Cart (1 item)","Winkelwagen (1 product)"
 "My Cart (%1 items)","Winkelwagen (%1 producten)"
 "My Cart",Winkelwagen
@@ -2312,6 +2309,7 @@ Checkout,Afrekenen
 "Sorry, guest checkout is not available.","Afrekenen zonder account is niet mogelijk."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","U moet uw account bevestigen. Controleer uw email voor de bevestigingslink of <a href=""%1""> Klik hier</a> voor een nieuwe link."
 "Load customer quote error","Fout bij laden van klant-quote"
+"Invalid method: %1","Ongeldige methode: %1"
 Error!,Fout!
 "DB exception","DB uitzondering"
 "Print receipt","Ontvangstbewijs afdrukken"
@@ -2351,6 +2349,7 @@ Total:,Totaal:
 "My billing and shipping address are the same","Factuur- en verzendadres zijn hetzelfde"
 Update,Bijwerken
 "Save in address book","Opslaan in adresboek"
+"Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order"
 "Estimated Total","Winkelwagen subtotaal"
 "You can create an account after checkout.","U kunt een account maken na het afrekenen."
 "You already have an account with us. Sign in or continue as guest.","U heeft al een account bij ons. Log in of ga door zonder account."
@@ -2377,7 +2376,6 @@ edit,bewerken
 "Shipping Address",Bezorgadres
 "New Address","Nieuw Adres"
 "Shipping Methods",Verzendmethoden
-"Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order"
 "Order Summary","Overzicht van bestelling"
 "Provided Zip/Postal Code seems to be invalid.","Opgegeven postcode lijkt ongeldig."
 " Example: "," Voorbeeld: "
@@ -2940,7 +2938,6 @@ Reverted,Terugstellen
                          Klanten kunnen geen bestellingen plaatsen totdat u de kredietvaluta heeft bijgewerkt."
 "Store Credit",Winkeltegoed
 "Refund to Company Credit","Terugstorten naar bedrijfskrediet"
-"An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.","Een factuur voor deelhoeveelheden kan niet worden afgegeven voor deze bestelling. Als u wilt doorgaan, wijzigt u de opgegeven hoeveelheid in de volledige hoeveelheid."
 "We refunded %1 online.","We hebben %1 online terugbetaald."
 "We refunded %1 offline.","We hebben %1 offline terugbetaald."
 "We refunded %1 to the company credit.","We hebben %1 terugbetaald naar het bedrijfskrediet."
@@ -3182,13 +3179,13 @@ Select,Selecteer
 "Create Product Configurations","Productconfiguraties aanmaken"
 "Buy %1 for %2 each and","Koop %1 voor %2 per stuk en"
 save,bewaar
+"Disable Product","Product uitschakelen"
+"Enable Product","Product inschakelen"
 "New Product Review","Nieuwe Productreview"
 "Here are the products you're about to create.","Overzicht van de producten die u gaat aanmaken."
 "You created these products for this configuration.","Deze producten zijn aangemaakt voor deze configuratie."
 "Disassociated Products","Niet-gekoppelde producten"
 "These products are not associated.","Deze producten zijn niet gekoppeld."
-"Disable Product","Product uitschakelen"
-"Enable Product","Product inschakelen"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Een attribuut is verwijderd. Dit attribuut zal niet langer worden weergegeven in uw configuraties."
 "Select options for all attributes or remove unused attributes.","Selecteer opties voor alle attributen of verwijder ongebruikte attributen."
 "Choose this option to delete and replace extension data for all past configurations.","Kies deze optie om extension-data voor alle historische configuraties te verwijderen en te vervangen."
@@ -4949,7 +4946,6 @@ Reauthorize,"Opnieuw autoriseren"
 "Integration '%1' has been sent for re-authorization.","Integratie '%1' is opnieuw verzonden voor autorisatie."
 "Integration '%1' has been sent for activation.","Integratie '%1' is verstuurd voor activatie."
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Er ging iets mis tijdens het verwijderen van rollen en bevoegdheden. Meer informatie in het exceptions logboek."
-"This customer has no tokens.","De klant heeft geen sleutels."
 "One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Een of meer <a href=""%1""> integraties</a> zijn vanwege een wijziging in de XML-configs gereset."
 "Invalid Callback URL","Ongeldige Callback-URL"
 "Invalid Rejected Callback URL","Ongeldige afgewezen-Callback-URL"
@@ -6105,7 +6101,6 @@ Create...,Aanmaken...
 "Your credit card will be charged for","Uw creditcard zal in rekening gebracht worden voor"
 "Your billing agreement # is: ","Uw incasso-overeenkomst # is: "
 "Please select a shipping method...","Selecteer een verzendmethode"
-"Update Shipping Method","Update verzendmethode"
 "Buy now with PayPal","Nu kopen met PayPal"
 "Edit Payment Information","Betalingsgegevens bewerken"
 "Items in Your Shopping Cart","Producten in uw winkelwagen"
@@ -6157,6 +6152,7 @@ Display,Weergave
 "Catalog Category Page","Catalogus Categorie-pagina"
 "Catalog Product Page","Catalogus productpagina"
 "Checkout Cart Page","Winkelwagen-afreken pagina"
+Color,Kleur
 "Basic Settings - PayPal Express Checkout","Basisinstellingen - PayPal Express Checkout"
 "Display on Product Details Page","Weergave op Product Details pagina"
 "Debug Mode",Debugmodus
@@ -6171,7 +6167,6 @@ Display,Weergave
 "Page Style",Paginastijl
 "Page Background Color",Pagina-achtergrondkleur
 Shape,Vorm
-Color,Kleur
 "Product Pages",Productpagina
 "Cart Page","Pagina winkelwagen"
 "Mini Cart","Mini winkelwagentje"
@@ -7484,7 +7479,6 @@ Complete,Voltooid
 "Payment Review",Betalingscontrole
 "Email has not been sent","E-mail is niet verzonden"
 "Authorized amount of %1","Autorisatiewaarde %1"
-" Transaction ID: ""%1"""," Transactie-ID: ""%1"""
 "Group was removed","Groep is verwijderd"
 "Changing address information will not recalculate shipping, tax or other order amount.","Het wijzigen van adresinformatie zal de verzending, BTW of andere bestelling-bedragen niet herberekenen."
 "Order Comments",Bestellingsnotities
@@ -8165,7 +8159,6 @@ Track:,Tracking:
 "See our Shipping Policy","Bekijk ons verzendbeleid"
 "Shipping Settings Section","Verzendinstellingen sectie"
 "Shipping Policy Parameters Section","Parameters verzendmethodes sectie"
-"Shipping Methods Section","Verzendmethodes sectie"
 "Shipping Settings",Verzendinstellingen
 Origin,Herkomst
 "Shipping Policy Parameters","Parameters verzendmethodes"
@@ -8299,11 +8292,11 @@ Includes,Omvat
 "Store with the same code","Opslaan met dezelfde code"
 "Website with the same code","Website met dezelfde code"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","De website code mag alleen letters (a-z), cijfers (0-9) of een underscore (_) bevatten. Het eerste teken moet een letter zijn."
-"Name is required","Naam is vereist"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","De winkelcode mag alleen letters (a-z), cijfers (0-9) of een underscore (_) bevatten. Het eerste teken moet een letter zijn."
 "Store is inactive","Winkel is inactief"
 "Invalid store parameter.","Ongeldige winkel parameter."
 "Default store is inactive","Standaar winkel is inactief"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","De winkelcode mag alleen letters (a-z), cijfers (0-9) of een underscore (_) bevatten. Het eerste teken moet een letter zijn."
+"Name is required","Naam is vereist"
 "no such entity exception","geen dergelijke entiteitsuitzondering"
 "Your Language:","Uw taal:"
 "Your Language","Uw taal"
@@ -8730,6 +8723,7 @@ Themes,Thema's
 "Insert File","Bestand invoegen"
 welcome,welkom
 "Design Configuration",Ontwerpconfiguratie
+"We cannot find a theme with id ""%1"".","We kunnen geen thema vinden met id ""%1""."
 "You deleted the theme.","U heeft het thema verwijderd."
 "We cannot delete the theme.","We kunnen het thema niet verwijderen."
 "File not found: ""%1"".","Bestand niet gevonden: ""%1""."
@@ -8739,7 +8733,6 @@ welcome,welkom
 "This theme is not editable.","Dit thema kan niet worden bewerkt."
 "You saved the theme.","U heeft het thema opgeslagen."
 "We can't upload the CSS file right now.","We kunnen het CSS bestand momenteel niet uploaden."
-"We cannot find a theme with id ""%1"".","We kunnen geen thema vinden met id ""%1""."
 "We can't upload the JS file right now.","We kunnen het JS bestand momenteel niet uploaden."
 "Sorry, something went wrong. That's all we know.","Er ging iets mis. Verder is er geen informatie."
 "Invalid type","Ongeldig type"
@@ -8882,8 +8875,6 @@ Keyword,Trefwoord
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Voer een geldige URL-sleutel in (Ex: ""voorbeeld-pagina"", ""voorbeeld-pagina.html"" of ""anderniveau/voorbeeld-pagina"")."
 "Please enter a valid zip code.","Geef een geldige postcode op."
 "Please select State/Province.","Selecteer een staat/provincie."
-"Please enter a value less than or equal to {0}.","Voer een waarde in die minder dan of gelijk is aan {0}."
-"Please enter a value greater than or equal to {0}.","Voer een waarde die groter dan of gelijk is aan {0}."
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Voer geldige e-mailadressen in, gescheiden door komma’s. Bijvoorbeeld iemand@domein.com, iemandanders@domein.com."
 "Please enter issue number or start date for switch/solo card type.","Voer een geldig nummer of een geldige startdatum in voor het switch/solo kaarttype."
 "Please enter positive number in this field.","Een positief getal invullen a. u. b."
@@ -9523,6 +9514,8 @@ Translate,Vertaal
 "Please enter at least {0} characters.","Voer minstens {0} karakters in."
 "Please enter a value between {0} and {1} characters long.","Voer een waarde in tussen {0} en {1} karakters lang."
 "Please enter a value between {0} and {1}.","Voer een waarde in tussen {0} en {1}."
+"Please enter a value less than or equal to {0}.","Voer een waarde in die minder dan of gelijk is aan {0}."
+"Please enter a value greater than or equal to {0}.","Voer een waarde die groter dan of gelijk is aan {0}."
 "Please enter a date between %min and %max.","Voer een datum in tussen %min en %max."
 "Please enter a valid full date.","Geef a.u.b. een geldige volledige datum op."
 "Please enter a valid month (1-12).","Geef a.u.b. een geldige maand op (1-12)."
