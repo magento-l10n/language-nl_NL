@@ -401,7 +401,12 @@ Environment,Omgeving
 options,opties
 "Select all","Alles selecteren"
 "Deselect all","Alles deselecteren"
+Selected,Geselecteerd
 "We couldn't find any records.","We konden geen records vinden."
+" total"," totaal"
+Page,Pagina
+Previous,Vorige
+Next,Volgende
 Show,Weergeven
 "per page","per pagina"
 "%s of %s selected","%s van %s geselecteerd"
@@ -602,6 +607,7 @@ System,Systeem
 "An authentication error occurred. Verify and try again.","Er is een authenticatie fout opgetreden. Controleer en probeer het opnieuw."
 "The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","De levensduur van de admin sessie is ongeldig. Stel de levensduur in op 31536000 seconden (één jaar) of korter en probeer het opnieuw."
 "The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","De levensduur van de admin sessie is ongeldig. Stel de levensduur in op 60 seconden of langer en probeer het opnieuw."
+Today,Vandaag
 "Last 24 Hours","Laatste 24 uur"
 "Last 7 Days","Laatste 7 dagen"
 "Current Month","Huidige maand"
@@ -641,8 +647,6 @@ password,wachtwoord
 "Sign Out",Uitloggen
 "About the calendar","Over de kalender"
 "Go Today","Naar vandaag"
-Previous,Vorige
-Next,Volgende
 Time,Tijd
 Hour,Uur
 Minute,Minuut
@@ -683,6 +687,8 @@ Loading...,"Bezig met laden..."
 "User agent exceptions override product and CMS pages rules.","Uitzonderingen van de gebruikersagent overschrijven product en CMS pagina's regels."
 "Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Zoek regels zijn of normale tekenreeksen of reguliere expressies (PCRE). Ze worden gevonden in dezelfde volgorde als ingevoerd."
 Examples,Voorbeelden
+"Previous Page","Vorige pagina"
+"Next Page","Volgende pagina"
 "Use Default Value","Gebruik standaard waarde"
 "We could not detect a size.","We kunnen geen grootte detecteren."
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Bevestig wijziging toepassing niveau. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan."
@@ -3554,6 +3560,7 @@ Password:,Wachtwoord:
 "Check out faster","Reken sneller af"
 "Checkout using your account","Reken af met uw account"
 "Email Address",E-mailadres
+"Show Password","Toon wachtwoord"
 "Are you sure you want to delete this address?","Weet u zeker dat u het adres wilt verwijderen?"
 Weak,Zwak
 Medium,Gemiddeld
@@ -8764,7 +8771,6 @@ Phrase,Zin
 "This is a demo store. No orders will be fulfilled.","Dit is een demo winkel. Bestellingen zullen niet verwerkt worden."
 "Items %1 to %2 of %3 total","Producten %1 tot %2 van %3 in totaal"
 "%1 Item(s)","%1 producten(en)"
-Page,Pagina
 "You're currently reading page","U lees momenteel pagina"
 "We don't recognize this file extension.","We herkennen dit bestandsformaat niet."
 "1 column","1 kolom"
@@ -8813,7 +8819,6 @@ Translations,Vertalingen
 "New %1","Nieuwe %1"
 "Unsupported bookmark action.","Niet-ondersteunde bladwijzer actie."
 "was not uploaded","is niet geüpload"
-Selected,Geselecteerd
 "Select All on This Page","Selecteer alles op deze pagina"
 "Deselect All on This Page","Deselecteer alles op deze pagina"
 On,Aan
