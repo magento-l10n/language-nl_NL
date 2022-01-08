@@ -409,9 +409,12 @@ options,opties
 "Deselect all","Alles deselecteren"
 Selected,Geselecteerd
 "We couldn't find any records.","We konden geen records vinden."
+" to "," tot "
+" of "," van "
 " total"," totaal"
 Page,Pagina
 Previous,Vorige
+"You're currently reading page","U leest momenteel pagina"
 Next,Volgende
 Show,Weergeven
 "per page","per pagina"
@@ -4515,7 +4518,6 @@ Numeric,Numeriek
 Generate,Genereren
 "Code Pool used: ","Code-Pool gebruikt: "
 " (free "," (gratis "
-" of "," van "
 " total)."," totaal)."
 "Refund Gift Cards to Store Credit","Cadeaubon verzilveren als winkelkrediet"
 "Amount can be returned to Store Credit.","Bedrag kan worden teruggestuurd naar Winkeltegoed."
