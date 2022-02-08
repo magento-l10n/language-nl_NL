@@ -6400,6 +6400,7 @@ Duration:,Duur:
 " product(s) require(s) your attention."," product(en) vereisen uw aandacht."
 "Enable Quick Order","Schakel snel bestellen in"
 "Download Sample","Download voorbeeld"
+"The coupon code isn't valid. Verify the code and try again.","De kortingscode is niet geldig. Controleer de code en probeer het opnieuw."
 "Product that you are trying to add is not available.","Product dat u probeert toe te voegen is niet beschikbaar."
 "This is the wrong quote item id to update configuration.","Dit is het verkeerd quote item id om de configuratie bij te werken."
 "This shipping method is not available. To use this shipping method, please contact us.","Deze verzendmethode is niet beschikbaar. Als u wilt deze verzendmethode gebruiken, neem contact met ons op."
