@@ -1325,9 +1325,13 @@ Fixed,Vast
 "Delete Option","Verwijder optie"
 "What are you looking for?","Wat zoekt u?"
 "There is no defined renderer for ""%1"" option type.","Er is geen weergave gedefinieerd voor optietype ""%1""."
+"This is implemented for bundle products only.","Dit is alleen geïmplementeerd voor bundelproducten."
+"The product with the ""%1"" SKU isn't a bundle product.","Het product met het ""%1"" SKU is geen bundel product."
 "Could not save child: ""%1""","Kan kind niet opslaan: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Product met opgegeven art.nr: '%1' bevat geen optie: '%2'"
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Kind met opgegeven art.nr: '%1' is al toegewezen aan product: '%2'"
+"The option couldn't be saved.","De optie kan niet worden opgeslagen."
+"The option with ""%1"" ID can't be deleted.","De optie met ID ""%1"" kan niet worden verwijderd."
 "Price Range",Prijsrange
 "As Low as",Vanaf
 Together,Samen
@@ -1389,6 +1393,7 @@ Message:,Bericht:
 "Add Products to New Option","Producten toevoegen aan nieuwe optie"
 "Add Products to Option ""%1""","Producten toevoegen aan optie ""%1"""
 Thumbnail,Mini-afbeelding
+"Special Price","Speciale prijs"
 """option_id"" and ""parent_id"" values should be specified","De waarden van ""option_id"" en ""parent_id"" moeten worden opgegeven"
 """sku"" value should be specified","De waarde ""sku"" moet worden opgegeven"
 Always,Altijd
@@ -1651,8 +1656,10 @@ Top/Right,Bovenaan/rechts
 Bottom/Left,Onder/links
 Bottom/Right,Onder/rechts
 Center,Centreer
+"Image optimization based on query parameters","Afbeeldingsoptimalisatie op basis van queryparameters"
 "%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 breidt \Magento\Framework\Model\AbstractModel niet uit"
 "Something went wrong while saving the file(s).","Er ging iets mis bij het opslaan van de bestanden."
+"File validation failed.","Validatie van het bestand is mislukt."
 "File can not be saved to the destination folder.","Bestand kan niet worden opgeslagen in de doelmap."
 "Unknown EAV indexer type ""%1"".","Onbekende EAV index type ""%1""."
 "We can't rebuild the index for an undefined product.","We kunnen geen index herbouwen voor een ongedefinieerd product."
@@ -1663,11 +1670,13 @@ Center,Centreer
 "Must be category model instance or its id.","Moet een modelinstantie of ID van een categorie zijn."
 "The attribute model is not defined.","Het attribuut model is niet opgegeven."
 Category,Categorie
+"The %1 value wasn't found in the algorithms.","De %1 waarde is niet gevonden in de algoritmen."
 "%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 is geen uitbreiding van \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface"
 "%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 is geen uitbreiding van \Magento\Catalog\Model\Layer\Filter\AbstractFilter"
 "The filter must be an object. Please set the correct filter.","Het filter moet een object zijn. Stel het juiste filter in."
 "Clear Price","Prijs verwijderen"
 "%1 and above","%1 en hoger"
+"The product wasn't registered.","Het product was niet geregistreerd."
 "Group price must be a number greater than 0.","Groepsprijs moet een getal groter dan 0 zijn."
 "Media Gallery converter should be an instance of EntryConverterInterface.","Media Gallerij converter moet een exemplaar van EntryConverterInterface zijn."
 "There is no MediaGalleryEntryConverter for given type","Er is geen MediaGalleryEntryConverter voor het opgegeven type"
@@ -1838,7 +1847,6 @@ Role,Rol
 "start typing to search attribute","begin met typen om attribuutset te vinden"
 "Basic Settings","Basis instellingen"
 "Advanced Settings","Geavanceerde Instellingen"
-"Special Price","Speciale prijs"
 "Buy %1 for: ","Koop %1 voor: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Koop %1 voor %2 en <strong class=""benefit"">bespaar<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Koop %1 voor %2 per stuk"
@@ -2407,7 +2415,7 @@ Total:,Totaal:
 "My billing and shipping address are the same","Factuur- en verzendadres zijn hetzelfde"
 Update,Bijwerken
 "Save in address book","Opslaan in adresboek"
-"Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order"
+"Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor dit order"
 "Estimated Total","Winkelwagen subtotaal"
 "You can create an account after checkout.","U kunt een account maken na het afrekenen."
 "You already have an account with us. Sign in or continue as guest.","U heeft al een account bij ons. Log in of ga door zonder account."
