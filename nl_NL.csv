@@ -7598,7 +7598,7 @@ Mixed,Gemengd
 "Total (ex)","Totaal (ex)"
 "Total (inc)","Totaal (inc)"
 "Credit Memo # ","Creditfactuur #"
-"Invoice # ","Factuurnummer "
+"Invoice # ","Factuur # "
 "The order object is not specified.","Het bestellings object is niet opgegeven."
 "The source object is not specified.","Het bronobject is niet opgegeven."
 "An item object is not specified.","Een product object is niet opgegeven."
@@ -7735,7 +7735,7 @@ Complete,Voltooid
 "Print Refund","Restitutie printen"
 "Print Order","Bestelling printen"
 "Print All Invoices","Alle facturen printen"
-"Invoice #",Factuurnummer
+"Invoice #","Factuur #"
 "Print Invoice","Factuur printen"
 "About Your Order","Over uw bestelling"
 "<span class=""label"">Order Date:</span> %1","<span class=""label"">Datum:</span> %1"
