@@ -2000,6 +2000,7 @@ Overview,Overzicht
 "Recently Viewed","Recent bekeken"
 "Are you sure you want to delete this category?","Weet u zeker dat u deze categorie wilt verwijderen?"
 "File validation failed.","Validatie van het bestand is mislukt."
+"Tier Price","Niveau prijs"
 "Full file path is expected.","Volledig bestandspad wordt verwacht."
 from,van
 to,naar
@@ -2016,6 +2017,7 @@ remaining,resterend
 "Changing may affect SEO and cache storage consumption.","Veranderen kan invloed hebben op SEO en cache opslag verbruik."
 Quality,Kwaliteit
 "Jpeg quality for resized images 1-100%.","Jpeg kwaliteit voor aangepaste afbeeldingen 1-100%."
+Cost,Kosten
 "The ""%1"" attribute is required. Enter and try again.","Het ""%1"" attribuut is vereist. Voer in en probeer het opnieuw."
 "Attributes were missing and must be specified.","Attributen ontbreken en moeten worden gespecificeerd."
 "The value of Admin must be unique. (%1)","De waarde van Admin moet uniek zijn. (%1)"
@@ -2864,7 +2866,7 @@ Contacts,Contacten
     but they will not be able to place orders.","Uw bedrijfsaccount <strong>%company_name</strong> is geblokkeerd.
      Uw bedrijfsleden kunnen de website blijven gebruiken,
      maar ze zullen geen bestellingen meer kunnen plaatsen."
-"If you have any questions, please contact the seller.","Wanneer u vragen heeft kunt u kont opnemen met de verkoper."
+"If you have any questions, please contact the seller.","Wanneer u vragen heeft, kunt u contact opnemen met de verkoper."
 "Your company account <strong>%company_name</strong> has been suspended, pending approval from the seller.","Uw zakelijk account <strong>%company_name</strong> is opgeschort, in afwachting van goedkeuring van de verkoper."
 "Your company registration request (for the <strong>%company_name</strong>) has been rejected
     for the following reason:","Uw bedrijfsregistratie aanvraag (voor <strong>%company_name</strong>) is afgewezen
@@ -3036,6 +3038,7 @@ Reverted,Terugstellen
 "The history of your credit operations is available on the Company Credit page.","De geschiedenis van uw krediet-transacties is beschikbaar op de pagina Bedrijfskrediet."
 "%company_name account reimbursed","%company_name account terugbetaald"
 "Your company credit account has been reimbursed by %reimbursed_amount.","Het bedrijfskrediet is terugbetaald met %reimbursed_amount."
+"If you have any questions, please contact the seller.","Wanneer u vragen heeft kunt u kont opnemen met de verkoper."
 "%company_name credit limit updated","%company_name kredietlimiet bijgewerkt"
 "Your credit limit has been updated and is now %available_credit.
     Your outstanding balance currently totals %outstanding_balance. You are %exceed_limit to exceed the credit limit.","Uw kredietlimiet is bijgewerkt en is nu %available_credit.
@@ -5692,7 +5695,6 @@ Seller,Verkoper
 "Sales Rep",Vertegenwoordiger
 "Add Product By SKU","Product toevoegen op art.nr."
 "Name & SKU","Naam & SKU"
-Cost,Kosten
 "Cart Price","Winkelwagen prijs"
 "Recalculate Quote","Offerte herberekenen"
 "Update Prices","Prijzen bijwerken"
@@ -7309,6 +7311,7 @@ Invoices,Facturen
 "Refund Shipping (Excl. Tax)","Verzendkosten terugbetalen (Excl. BTW)"
 "Refund Shipping","Afleverkosten terugbetalen"
 "Update Qty's","Het aantal bijwerken"
+"Update Totals","Update totaal"
 Refund,Terugbetaling
 "Refund Offline","Handmatig terugbetalen"
 "Paid Amount","Betaald bedrag"
@@ -7705,6 +7708,7 @@ Complete,Voltooid
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Indien u vragen heeft over uw bestelling kunt u ons e-mailen op <a href=""mailto:%store_email"">%store_email</a>"
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Uw creditfactuur #%creditmemo_id voor bestelling #%order_id"
 "Billing Info",Factuuradres
+"Shipping Info","Versend info"
 "Update to your %store_name credit memo","Update van uw %store_name creditfactuur"
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Uw bestelling #%increment_id werd geupdate met volgende status <strong>%order_status</strong>."
 "Invoice for your %store_name order","Factuur voor uw %store_name bestelling"
@@ -7737,6 +7741,7 @@ Operations,Bewerkingen
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Uw standaard logo zal gebruikt worden in PDF en HTML documenten.<br />(jpeg, tiff, png) Indien uw pdf afbeelding vervormd is, probeer een groter bestandsformaat van afbeelding te gebruiken."
 "Logo for HTML Print View","Logo voor HTML afdruk-preview"
 "Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)","Logo voor uitsluitend HTML-documenten. Leeglaten om het standaardlogo te gebruiken.<br />(jpeg, gif, png)"
+"Subtotal after discount","Subtotaal na korting"
 "Include Tax to Amount","BTW toevoegen aan bedrag"
 "Description Message",Omschrijving
 "Error to Show in Shopping Cart","Foutmelding te tonen in winkelwagen"
