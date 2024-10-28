@@ -176,7 +176,7 @@ Item,Product
 Edit,Bewerken
 "Remove item","Verwijder dit artikel"
 "Products Requiring Attention","Producten die aandacht behoeven"
-"Add to Cart","In Winkelwagen"
+"Add to Cart","In winkelwagen"
 Sku,Art.nr.
 File,Bestand
 "File extensions allowed: .csv","Toegestande extensie: .csv"
@@ -1814,6 +1814,7 @@ Role,Rol
 "Compare Products","Producten vergelijken"
 "Print This Page","Print deze pagina"
 "Remove Product","Product verwijderen"
+"Add to Cart","In Winkelwagen"
 "Add to Wish List","Voeg toe aan verlanglijst"
 "You have no items to compare.","Geen producten geselecteerd."
 "Remove This Item","Verwijder dit artikel"
@@ -3615,6 +3616,8 @@ Password:,Wachtwoord:
 "Your %store_name email has been changed","Uw %store_name e-mail is veranderd"
 "We have received a request to change the following information associated with your account at %store_name: email.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: e-mail."
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Als u geen toestemming voor deze actie gegeven hebt, neem onmiddellijk contact met ons op <a href=""mailto:%store_email"">%store_email</a>"
+"or call us at <a href=""tel:%store_phone"">%store_phone</a>","of bel ons op <a href=""tel:%store_phone"">%store_phone</a>"
+"Thanks,<br>%store_name","Bedankt,<br>%store_name"
 "Your %store_name email and password has been changed","Uw %store_name e-mail en wachtwoord is veranderd"
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: e-mail, wachtwoord."
 "Reset your %store_name password","Uw %store_name wachtwoord resetten"
