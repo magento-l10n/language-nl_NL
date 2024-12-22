@@ -109,7 +109,9 @@ Configure,Configureren
 "You must buy at least %1 of these per purchase.","U moet ten minste %1 van dit product aanschaffen per aankoop."
 "Specify the product's options.","Geef de productopties aan."
 "Alert me when this item is available.","Waarschuw me wanneer dit product beschikbaar is."
+"We can't find this customer.","Klant niet gevonden."
 "Shopping cart management is disabled for this customer.","Winkelwagenbeheer uitgeschakeld voor deze klant."
+"We can't find this store.","Winkel niet gevonden."
 Customers,Klanten
 "Shopping Cart",Winkelwagen
 "You do not have access to this.","U heeft geen toegang hier toe."
@@ -551,6 +553,7 @@ To,Tot
 "Invalid export type supplied for grid export block","Ongeldig export type opgegeven voor export rasterblok"
 Export,Exporteer
 "Please correct the column format and try again.","Corrigeer de kolomindeling en probeer het opnieuw."
+"Please select items.","Selecteer producten."
 Submit,Verstuur
 "Unknown block type","Onbekend bloktype"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Corrigeer de tab configuratie en probeer het opnieuw. Tab ID mag niet leeg zijn"
@@ -620,6 +623,7 @@ System,Systeem
 "Last 7 Days","Laatste 7 dagen"
 "Current Month","Huidige maand"
 "Authentication storage is incorrect.","Authenticatie opslag niet correct."
+"Authentication error occurred.","Authenticatiefout opgetreden."
 Order,Bestelling
 "Order #%1","Bestelling #%1"
 "Sorry, you need permissions to view this content.","Helaas, u bent niet gemachtigd om deze inhoud weer te geven."
@@ -717,6 +721,7 @@ Tools,Instellingen
 "Catalog Images Cache","Catalogus afbeeldingen cache"
 "Flush Js/Css","Leeg Js/Css"
 "Flush Static Files","Leeg statische bestanden"
+"Web Setup Wizard","Wizard webinstellingen"
 Currency,Valuta
 Communications,Communicatie
 Advanced,Geavanceerd
@@ -830,6 +835,7 @@ Security,Beveiliging
 "Validate HTTP_VIA","HTTP_VIA valideren"
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR valideren"
 "Validate HTTP_USER_AGENT","HTTP_USER_AGENT valideren"
+"Use SID on Storefront","Gebruik SID op storefront"
 "Cache Type","Cache Soort"
 Description,Omschrijving
 Tags,tags
@@ -6393,8 +6399,8 @@ Price:,Prijs:
 Url,URL
 "Preview Image","Afbeelding bekijken"
 "Get Video Information","Video-informatie krijgen"
-"YouTube and Vimeo supported.","Youtube en Vimeo ondersteund."
-"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo ondersteund.<br />Om een YouTube video toe te voegen, gelieve eerst<a href=""%1"">uw YouTube API Key in te vullen</a>."
+"YouTube and Vimeo supported.","YouTube en Vimeo worden ondersteund."
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo wordt ondersteund.<br />Om YouTube-video's toe te voegen, moet je eerst <a href=""%1"">YouTube API-key</a> invoeren."
 "Protocol isn't allowed","Protocol is niet toegestaan"
 "Add Video","Video toevoegen"
 "Delete video","Video verwijderen"
@@ -6404,13 +6410,14 @@ Duration:,Duur:
 "Video Error","Fout in video"
 "Unknown video type","Onbekend type video"
 "Invalid video url","Ongeldige video url"
-"Youtube API key is invalid","Youtube API key is ongeldig"
+"Youtube API key is invalid","YouTube API-sleutel is ongeldig"
 "Video cant be shown due to the following reason: ","Video kan niet getoond worden vanwege: "
 "Video not found","Video niet gevonden"
 "New Video","Nieuwe Video"
 "Edit Video","Video bewerken"
 "Images and Videos","Afbeeldingen en video's"
 "Product Video",Productvideo
+"YouTube API Key","YouTube API-sleutel"
 "Autostart base video","Start basisvideo automatisch"
 "Show related video","Toon verwante video"
 "Auto restart video","Video automatisch herstarten"
