@@ -8,6 +8,7 @@ None,Geen
 "Please assign this item to a store view.","Wijs dit item toe aan een winkelaanzicht."
 "You need more permissions to save this item.","U heeft meer bevoegdheden nodig om dit item op te slaan."
 "You need more permissions to delete this item.","U heeft meer bevoegdheden nodig om dit item te verwijderen."
+"You need more permissions to view this item.","U heeft meer rechten nodig om dit item te zien. "
 "You need more permissions to access website ""%1"".","U heeft meer bevoegdheden nodig voor toegang tot website ""%1""."
 "Role Scopes","Rol scopes"
 Custom,Aangepast
