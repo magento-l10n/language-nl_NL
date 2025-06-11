@@ -3447,7 +3447,7 @@ Unlock,Deblokkeer
 "We're unable to send the password reset email.","We kunnen de wachtwoordherstel e-mail niet verzenden."
 "Please enter your email.","Voer uw e-mailadres in."
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Als er een account is gekoppeld aan %1, ontvangt u een e-mail met een link om uw wachtwoord opnieuw in te stellen."
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Deze account is niet bevestigd. <a href=""%1"">Klik hier</a> om de bevestigingsmail opnieuw te verzenden."
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Dit account is niet bevestigd. <a href=""%1"">Klik hier</a> om de bevestigingsmail opnieuw te verzenden."
 "An unspecified error occurred. Please contact us for assistance.","Een niet nader gekende fout deed zich voor. Neem contact met ons op voor hulp."
 "A login and a password are required.","Gebruikersnaam en wachtwoord zijn verplicht."
 "New Password and Confirm New Password values didn't match.","Het nieuwe wachtwoord en de bevestiging van het nieuwe wachtwoord komen niet overeen."
