@@ -2756,12 +2756,12 @@ Blocked,Geblokkeerd
 "Company admin",Bedrijfsbeheerder
 "Company user","Bedrijf gebruiker"
 "Individual user","Individuele gebruiker"
+"Invalid value of ""%value"" provided for the %fieldName field.","Ongeldige waarde voor ""% value"" opgegeven voor het %fieldName veld."
 "Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Kan ""toestaan"" niet instellen voor de resource omdat de bovenliggende resource(s) is ingesteld op ""weigeren""."
 "Invalid login or password.","Ongeldige gebruikersnaam en/of wachtwoord."
 "This account is locked.","Dit account is geblokkeerd."
 "Your account is not yet approved. If you have questions, please contact the seller.","Uw account is nog niet goedgekeurd. Wanneer u vragen hebt kunt u contact op nemen met de verkoper."
 "There was an error saving custom attributes.","Er is een fout opgetreden bij het opslaan van handmatige attributen."
-"Invalid value of ""%value"" provided for the %fieldName field.","Ongeldige waarde voor ""% value"" opgegeven voor het %fieldName veld."
 """%fieldName"" is required. Enter and try again.","""%fieldName"" is verplicht. Voer in en probeer het nogmaals."
 "No such entity with %fieldName = %fieldValue","Geen dergelijke entiteit met %fieldName = %fieldValue"
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","Deze rol kan niet worden verwijderd omdat gebruikers eraan zijn toegewezen. Wijs de gebruikers opnieuw toe aan een andere rol om door te gaan."
@@ -2776,13 +2776,12 @@ Blocked,Geblokkeerd
 "Could not save company: %1","Kon bedrijf niet opslaan: %1"
 "Cannot delete structure with id %1","De structuur met id %1 kan niet worden verwijderd"
 "Could not create team","Kan team niet maken"
-"This team has child users or teams aligned to it and cannot be deleted. Please re-align the child users or teams first.","Dit team heeft onderliggende gebruikers of teams die hierop zijn afgestemd en kan niet worden verwijderd. Pas eerst de onderliggende gebruikers of teams opnieuw aan."
 "Could not update team","Kan team niet bijwerken"
 "Cannot delete team with id %1","Het team met id %1 kan niet worden verwijderd"
 "You cannot assign a different role to a company admin.","U kunt een bedrijfsbeheerder geen andere rol toewijzen."
 "You cannot assign multiple roles to a user.","U kunt niet meerdere rollen toewijzen aan een gebruiker."
-"Cannot delete the company admin. Delete operation has been stopped. Please repeat the action for the other customers.","Kan de bedrijfsbeheerder niet verwijderen. De verwijder verwerking is gestopt. Herhaal de actie voor de andere klanten."
 "Something went wrong","Er ging iets mis"
+"Cannot delete the company admin. Delete operation has been stopped. Please repeat the action for the other customers.","Kan de bedrijfsbeheerder niet verwijderen. De verwijder verwerking is gestopt. Herhaal de actie voor de andere klanten."
 "This customer company account is blocked and customer cannot place orders.","Dit zakelijk account is geblokkeerd en de klant kan geen bestellingen plaatsen."
 "The consumer isn't authorized to access resource.","De consument is niet geautoriseerd voor toegang tot bron."
 " - Duplicated"," - Gedupliceerd"
@@ -2799,6 +2798,7 @@ Duplicate,Dupliceren
 "Company Name",Bedrijfsnaam
 "Customer Type:","Klant type:"
 Company:,Bedrijf:
+"User Role","Rol van gebruiker"
 "Company Information",Bedrijfsgegevens
 "Company Legal Name",Handelsnaam
 "Company Email","Bedrijfs e-mail"
@@ -2816,7 +2816,6 @@ Company:,Bedrijf:
 "Add User","Gebruiker toevoegen"
 "Add Team","Team toevoegen"
 "Edit Selected","Selectie bewerken"
-"User Role","Rol van gebruiker"
 "Team Title","Team naam"
 "You don't have a company account yet.","U heeft nog geen zakelijk account."
 "VAT/TAX ID: ","BTW-nummer: "
@@ -2826,11 +2825,18 @@ Contacts,Contacten
 "Role Information","Rol informatie"
 "Role Permissions","Rol rechten"
 "Save Role","Rol opslaan"
+"This action cannot be undone. Are you sure you want to delete this user?","Deze actie kan niet ongedaan worden gemaakt. Weet u zeker dat u deze gebruiker wilt verwijderen?"
 "Add New User","Nieuwe gebruiker toevoegen"
 "Create an Account","Account aanmaken"
+"Change Customer Group?","Klantgroep wijzigen?"
+"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Deze klant is een gebruiker van een ander bedrijf. Als u doorgaat, wordt de klant ontkoppeld van het huidige bedrijf en gekoppeld aan het geselecteerde bedrijf."
+"Change Company?","Bedrijf wijzigen?"
+"Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.","Uw account is nu actief. U kan het gebruiken om in te loggen op de <a href=""%customer_url"">website</a>."
+"Your account is no longer active. You will not be able to use it for login.","Uw account is niet langer actief. U kan het niet meer gebruiken om in te loggen."
 "This action will replace your Company Admin.","Deze actie vervangt uw bedrijfsbeheerder."
 "* Your latest changes on the company profile have not been saved yet.","* Uw laatste wijzigingen in het bedrijfsprofiel zijn nog niet opgeslagen."
 "Dear %name,","Beste %name,"
+"Your account has been set to inactive and you cannot now access the company account. If you think this is a mistake, please contact your manager for details.","Uw account is ingesteld op inactief en u heeft nu geen toegang tot het zakelijk account. Als u denkt dat dit een vergissing is kunt u voor meer informatie contact opnemen met uw vertegenwoordiger."
 "You have been assigned to <a href=""%customer_url"">%company_name</a> as the Company Admin.","U bent toegewezen aan <a href=""%customer_url"">%company_name</a> als bedrijfsbeheerder."
 "When you sign in to your account, you can:","Wanneer u inlogt op uw account, kan u volgende zaken:"
 "* Create and manage company users and teams","* Creëer en beheer van bedrijfsgebruikers en -teams"
@@ -2843,10 +2849,7 @@ Contacts,Contacten
 "If this is a mistake,
     please contact the company Admin at %company_admin_email.","Als dit is een vergissing,
     neem contact op met het bedrijf Admin op %company_admin_email."
-"Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.","Uw account is nu actief. U kan het gebruiken om in te loggen op de <a href=""%customer_url"">website</a>."
-"Your account is no longer active. You will not be able to use it for login.","Uw account is niet langer actief. U kan het niet meer gebruiken om in te loggen."
 "If this is a mistake, please contact the seller.","Als dit een vergissing is neem dan contact op met de verkoper."
-"Your account has been set to inactive and you cannot now access the company account. If you think this is a mistake, please contact your manager for details.","Uw account is ingesteld op inactief en u heeft nu geen toegang tot het zakelijk account. Als u denkt dat dit een vergissing is kunt u voor meer informatie contact opnemen met uw vertegenwoordiger."
 "A company registration request has been submitted by customer %customer. The account is temporarily locked until you approve or reject this company.","Een bedrijfsregistratie aanvraag is ingediend door klant %customer. Het account is tijdelijk vergrendeld totdat u dit bedrijf goedkeurt of afwijst."
 "Company: %company","Bedrijfsnaam: %company"
 "Your company registration request (for the <strong>%company_name</strong>)
@@ -2892,8 +2895,6 @@ Proceed,Doorgaan
 "This user cannot be deleted because he/she is a company admin.","Deze gebruiker kan niet worden verwijderd omdat hij/zij een bedrijf admin is."
 "Edit User","Gebruiker bewerken"
 "Cannot Delete User","Kan gebruiker niet verwijderen"
-"Delete this user?","Deze gebruiker verwijderen?"
-"This action cannot be undone. Are you sure you want to delete this user?","Deze actie kan niet ongedaan worden gemaakt. Weet u zeker dat u deze gebruiker wilt verwijderen?"
 "Edit Team","Team bewerken"
 "Cannot Delete This Team","Kan dit team niet verwijderen"
 "Delete this team?","Verwijder dit team?"
@@ -2902,7 +2903,6 @@ Proceed,Doorgaan
 "This action cannot be undone. Are you sure you want to delete this role?","Deze actie kan niet ongedaan worden gemaakt. Weet u zeker dat u deze rol wilt verwijderen?"
 "Cannot Delete Role","Kan de rol niet verwijderen"
 "Cannot Delete Customer","Kan de klant niet verwijderen"
-"Set Inactive","Set inactief"
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","Gebruiker met dit e-mailadres bestaat al in het systeem. Voer een ander e-mailadres in om door te gaan. Als u uw huidige account als een administrator-account wilt gebruiten dient u contact op te nemen met de verkoper."
 "Enable Company","Bedrijf inschakelen"
 "Company Configuration","Bedrijf configuratie"
@@ -2958,6 +2958,7 @@ Comment,Opmerking
 ZIP,Postcode
 "Company Admin",Bedrijfsbeheerder
 Gender,Geslacht
+"Set Inactive","Set inactief"
 "Customer Type","Klant type"
 "Are you sure you want to temporarily disable this company account? If you confirm, login for all company members will be blocked.","Weet u zeker dat u tijdelijk dit zakelijk account wilt uitschakelen? Als u bevestigt zal de login voor alle medewerkers geblokkeerd worden."
 "Are you sure you want to set this company to active? If you confirm, the company members will be able to operate within their company account.>","Weet u zeker dat u dit bedrijf wilt activeren? Als u bevestigt zullen de bedrijfsmedewerkers kunnen werken binnen hun bedrijfsaccount.>"
@@ -2970,12 +2971,9 @@ Gender,Geslacht
 Prefix,Voorvoegsel
 "Middle Name/Initial",Initialen
 Suffix,Achtervoegsel
-"Change Customer Group?","Klantgroep wijzigen?"
 "This action will change the customer group for all members of this company. Would you like to proceed?","Met deze actie wordt de klantengroep voor alle leden van dit bedrijf gewijzigd. Wilt u doorgaan?"
 "The user <%- username %> is the company admin and cannot be set to inactive. You must set another user as the company admin first.","De gebruiker <%- username %> is de bedrijfsbeheerder en kan niet worden ingesteld op inactief. U moet eerst een andere gebruiker instellen als de bedrijfsbeheerder."
 "Customer Active","Klant actief"
-"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Deze klant is een gebruiker van een ander bedrijf. Als u doorgaat, wordt de klant ontkoppeld van het huidige bedrijf en gekoppeld aan het geselecteerde bedrijf."
-"Change Company?","Bedrijf wijzigen?"
 "Associate to Company","Koppelen aan bedrijf"
 "My Orders","Mijn bestellingen"
 "Create New Customer","Nieuwe klant aanmaken"
